@@ -16,7 +16,7 @@ const About = () => {
         </div>
     ));
     return (
-        <section className="pt-10 pb-10">
+        <section className="pt-10 pb-10 bg-white">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="grid grid-cols-1 gap-x-3 min-[430px]:grid-cols-2 min-[860px]:grid-cols-4 gap-y-3">
                     {lists}

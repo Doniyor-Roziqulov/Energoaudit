@@ -18,6 +18,16 @@ const Hero = () => {
                         <h1 className="text-3xl min-[500px]:text-4xl lg:text-5xl text-white text-center pt-3 relative">
                             Energoaudit
                         </h1>
+                        <p className="relative text-white text-center mt-6 text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut illum inventore quisquam quia tempore nobis
+                            libero dolor dolorem, aperiam quasi? Necessitatibus
+                            earum labore dolores quaerat quos numquam amet,
+                            aliquam, quas nobis, veniam quis cum? Incidunt
+                            ducimus dicta laborum vero, magnam, repellendus
+                            numquam fugit aliquam atque necessitatibus impedit
+                            rem tempore itaque quo non ab fugiat similique
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -29,6 +39,16 @@ const Hero = () => {
                         <h1 className="text-3xl min-[500px]:text-4xl lg:text-5xl text-white text-center pt-3 relative">
                             Energoaudit2
                         </h1>
+                        <p className="relative text-white text-center mt-6 text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut illum inventore quisquam quia tempore nobis
+                            libero dolor dolorem, aperiam quasi? Necessitatibus
+                            earum labore dolores quaerat quos numquam amet,
+                            aliquam, quas nobis, veniam quis cum? Incidunt
+                            ducimus dicta laborum vero, magnam, repellendus
+                            numquam fugit aliquam atque necessitatibus impedit
+                            rem tempore itaque quo non ab fugiat similique
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -40,6 +60,16 @@ const Hero = () => {
                         <h1 className="text-3xl min-[500px]:text-4xl lg:text-5xl text-white text-center pt-3 z-30 relative">
                             Energoaudit3
                         </h1>
+                        <p className="relative text-white text-center mt-6 text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut illum inventore quisquam quia tempore nobis
+                            libero dolor dolorem, aperiam quasi? Necessitatibus
+                            earum labore dolores quaerat quos numquam amet,
+                            aliquam, quas nobis, veniam quis cum? Incidunt
+                            ducimus dicta laborum vero, magnam, repellendus
+                            numquam fugit aliquam atque necessitatibus impedit
+                            rem tempore itaque quo non ab fugiat similique
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -51,6 +81,16 @@ const Hero = () => {
                         <h1 className="text-3xl min-[500px]:text-4xl lg:text-5xl text-white text-center pt-3 z-30 relative">
                             Energoaudit4
                         </h1>
+                        <p className="relative text-white text-center mt-6 text-lg">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ut illum inventore quisquam quia tempore nobis
+                            libero dolor dolorem, aperiam quasi? Necessitatibus
+                            earum labore dolores quaerat quos numquam amet,
+                            aliquam, quas nobis, veniam quis cum? Incidunt
+                            ducimus dicta laborum vero, magnam, repellendus
+                            numquam fugit aliquam atque necessitatibus impedit
+                            rem tempore itaque quo non ab fugiat similique
+                        </p>
                     </div>
                 </div>
             </Carousel>
