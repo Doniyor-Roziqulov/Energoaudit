@@ -1,5 +1,4 @@
 import React from "react";
-import { IoHome } from "react-icons/io5";
 import { serviceslist } from "@/static";
 import "@/components/services/Services.css";
 
@@ -8,7 +7,7 @@ const Services = () => {
         <li className="px-3 relative serlist" key={inx}>
             <div className="flex justify-center">
                 <div className="serbox border-2 border-[#01bafd] p-4 rounded-full">
-                    <IoHome className=" text-[#01bafd] text-3xl min-[550px]:text-4xl lg:text-5xl" />
+                    <img src={e.url} alt="" />
                 </div>
             </div>
             <p className="text-xs min-[550px]:text-base lg:text-sm min-[1200px]:text-base text-center mt-4">

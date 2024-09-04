@@ -5,3 +5,7 @@
 /* .site-header .active {
   color: cadetblue;
 } */
+
+* {
+    scroll-behavior: smooth;
+}

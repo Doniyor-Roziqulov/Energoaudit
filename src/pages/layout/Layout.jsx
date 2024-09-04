@@ -1,19 +1,15 @@
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
-    const [openMenu, setOpenMenu] = useState(false);
     return (
         <>
             <Header />
-            <main
-                onClick={() => {
-                    setOpenMenu(!openMenu);
-                }}
-                className="mt-[90px]">
+            <main className="mt-[90px] relative">
                 <Outlet />
             </main>
+            <Footer />
         </>
     );
 };
