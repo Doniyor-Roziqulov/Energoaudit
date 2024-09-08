@@ -6,6 +6,7 @@ import {
     FaTelegramPlane,
     FaTwitter,
 } from "react-icons/fa";
+import { TfiAlignRight } from "react-icons/tfi";
 
 const Contact = () => {
     const onFinish = (values) => {
@@ -17,6 +18,10 @@ const Contact = () => {
     return (
         <section className="pt-9 pb-9">
             <div className="container max-w-[1240px] mx-auto px-5">
+                <div className="flex items-center gap-x-4 mb-4">
+                    <TfiAlignRight className="text-2xl text-blue-500" />
+                    <h1 className="text-4xl font-semibold">Aloqa</h1>
+                </div>
                 <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
                     <div>
                         <Form

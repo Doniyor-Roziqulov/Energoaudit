@@ -76,7 +76,7 @@ const Footer = () => {
                         </Link>
                         <Link
                             className="hover:text-green-500 transition-all"
-                            to={"/worker"}>
+                            to={"/personnel"}>
                             <VscArrowCircleLeft className="inline" />
                             Xodimlar
                         </Link>
@@ -88,7 +88,7 @@ const Footer = () => {
                         </Link>
                         <Link
                             className="hover:text-green-500 transition-all"
-                            to={"/list"}>
+                            to={"/lists"}>
                             <VscArrowCircleLeft className="inline" /> Korxonalar
                             ro'yxati
                         </Link>
