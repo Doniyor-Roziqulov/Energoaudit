@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <>
             <Header />
-            <main className="mt-[90px] relative">
+            <main className="pt-[120px] relative dark:bg-[#1A1B1D] overflow-x-scroll">
                 <Outlet />
             </main>
             <Footer />

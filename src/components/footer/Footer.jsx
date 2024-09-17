@@ -11,14 +11,16 @@ import { VscArrowCircleLeft } from "react-icons/vsc";
 
 const Footer = () => {
     return (
-        <footer className="pb-10 pt-10 bg-stone-100">
+        <footer className="pb-10 pt-10 bg-stone-100 dark:bg-stone-800">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex flex-col gap-y-5 min-[500px]:flex-row min-[500px]:flex-wrap min-[640px]:justify-around min-[772px]:justify-between justify-between">
                     <div className="flex flex-col">
-                        <Link className="text-2xl italic font-bold" to={"/"}>
+                        <Link
+                            className="text-2xl italic font-bold dark:text-white"
+                            to={"/"}>
                             LOGO
                         </Link>
-                        <p>
+                        <p className="dark:text-slate-300">
                             Kompaniya sanoat korxonalari va <br /> binolarda
                             energiya samaradorligini <br /> oshirish sohasida
                             injiniring va konsalting <br /> hizmatlarini
@@ -27,31 +29,31 @@ const Footer = () => {
                         </p>
                         <div className="flex items-center gap-x-4 mt-4 text-2xl">
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaInstagram />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaTelegramPlane />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaFacebook />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaTwitter />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaLinkedin />
@@ -59,46 +61,46 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-y-2">
-                        <strong className="text-xl text-[#253D4E]">
+                        <strong className="text-xl dark:text-white text-[#253D4E]">
                             Sahifalar
                         </strong>
                         <Link
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/about"}>
                             <VscArrowCircleLeft className="inline" /> Biz
                             haqimizda
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/work"}>
                             <VscArrowCircleLeft className="inline" /> Bizning
                             ishlar
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/personnel"}>
                             <VscArrowCircleLeft className="inline" />
                             Xodimlar
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/price"}>
                             <VscArrowCircleLeft className="inline" /> Mahsulot
                             narxlari
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/lists"}>
                             <VscArrowCircleLeft className="inline" /> Korxonalar
                             ro'yxati
                         </Link>
                     </div>
                     <div className="flex flex-col gap-y-2">
-                        <strong className="text-xl text-[#253D4E]">
+                        <strong className="text-xl dark:text-white text-[#253D4E]">
                             Aloqa
                         </strong>
                         <a
-                            className="hover:text-green-500 transition-all"
+                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             href="https://maps.app.goo.gl/8RNQG1hJ256K5aXa6"
                             target="_blank">
                             <IoLocationOutline className="inline text-xl" />
@@ -107,17 +109,17 @@ const Footer = () => {
                             5-etaj.
                         </a>
                         <a
-                            className="flex items-center gap-x-2 hover:text-green-500 transition-all"
+                            className="flex items-center gap-x-2 hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             href="tel:+998942860422">
                             <BsFillTelephoneFill /> +998 (94) 286 04 22
                         </a>
                         <a
-                            className="flex items-center gap-x-2 hover:text-green-500 transition-all"
+                            className="flex items-center gap-x-2 hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             href="tel:+998993746920">
                             <BsFillTelephoneFill /> +998 (99) 374 69 20
                         </a>
                         <a
-                            className=" hover:text-green-500 transition-all"
+                            className=" hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             href="mailto:doniyorruziqulov33@gmail.com">
                             doniyorruziqulov33@gmail.com
                         </a>

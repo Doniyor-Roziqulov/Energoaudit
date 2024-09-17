@@ -20,12 +20,14 @@ const Contact = () => {
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
-                    <h1 className="text-4xl font-semibold">Aloqa</h1>
+                    <h1 className="text-4xl font-semibold dark:text-white">
+                        Aloqa
+                    </h1>
                 </div>
                 <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
                     <div>
                         <Form
-                            className="w-[280px] min-[480px]:w-[370px] min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px]"
+                            className="w-[280px] min-[480px]:w-[370px] min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:bg-slate-600 dark:text-white px-3 py-3 rounded-md"
                             layout="vertical"
                             name="basic"
                             initialValues={{
@@ -43,7 +45,7 @@ const Contact = () => {
                                         message: "Iltimos ismingizni kiriting!",
                                     },
                                 ]}>
-                                <Input />
+                                <Input className="dark:bg-slate-800" />
                             </Form.Item>
                             <Form.Item
                                 label="Familiya kiriting"
@@ -54,7 +56,7 @@ const Contact = () => {
                                         message: "Iltimos familiya kiriting!",
                                     },
                                 ]}>
-                                <Input />
+                                <Input className="dark:bg-slate-800" />
                             </Form.Item>
                             <Form.Item
                                 label="Telefon raqam kiriting"
@@ -66,9 +68,10 @@ const Contact = () => {
                                             "Iltimos telefon raqamingizni kiriting!",
                                     },
                                 ]}>
-                                <Input />
+                                <Input className="dark:bg-slate-800" />
                             </Form.Item>
                             <Form.Item
+                                className="dark:text-white"
                                 label="Xabar yozing"
                                 name="textaria"
                                 rules={[
@@ -77,7 +80,7 @@ const Contact = () => {
                                         message: "Xabar kiriting!",
                                     },
                                 ]}>
-                                <Input.TextArea />
+                                <Input.TextArea className="dark:bg-slate-800" />
                             </Form.Item>
                             <Form.Item>
                                 <Button
@@ -91,11 +94,11 @@ const Contact = () => {
                     </div>
                     <div>
                         <div className="mb-3">
-                            <strong className="block mb-3 text-2xl">
+                            <strong className="block mb-3 text-2xl dark:text-white">
                                 Manzil
                             </strong>
                             <a
-                                className=" font-semibold text-neutral-600"
+                                className=" font-semibold text-neutral-600 dark:text-slate-400"
                                 href="https://maps.app.goo.gl/8RNQG1hJ256K5aXa6"
                                 target="_blank">
                                 100128, O‘zbekiston, Toshkent sh. <br />,
@@ -104,51 +107,51 @@ const Contact = () => {
                             </a>
                         </div>
                         <div className="mb-3">
-                            <strong className="block mb-3 text-2xl">
+                            <strong className="block mb-3 text-2xl dark:text-white">
                                 Qo'ng'iroq qiling
                             </strong>
                             <a
-                                className="block mb-2 font-semibold text-neutral-600"
+                                className="block mb-2 font-semibold text-neutral-600 dark:text-slate-400"
                                 href="tel:+998993746920">
                                 +998 (99) 374 69 20
                             </a>
                             <a
-                                className="block font-semibold text-neutral-600"
+                                className="block font-semibold text-neutral-600 dark:text-slate-400"
                                 href="tel:+998942860422">
                                 +998 (94) 286 04 22
                             </a>
                         </div>
                         <div className="mb-3">
-                            <strong className="block mb-3 text-2xl">
+                            <strong className="block mb-3 text-2xl dark:text-white">
                                 Email
                             </strong>
                             <a
-                                className=" font-semibold text-neutral-600"
+                                className=" font-semibold text-neutral-600 dark:text-slate-400"
                                 href="mailto:doniyorruziqulov33@gmail.com">
                                 doniyorruziqulov33@gmail.com
                             </a>
                         </div>
                         <div className="flex gap-x-4 text-4xl">
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaInstagram />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaTelegramPlane />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaFacebook />
                             </a>
                             <a
-                                className="hover:scale-125 transition-all hover:text-blue-600"
+                                className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
                                 href="https://www.instagram.com/rahmatullayev_dostonbek"
                                 target="_blank">
                                 <FaTwitter />

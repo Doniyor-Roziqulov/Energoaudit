@@ -7,13 +7,13 @@ const Product = () => {
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
-                    <h1 className="text-2xl lg:text-4xl font-semibold">
+                    <h1 className="text-2xl lg:text-4xl font-semibold dark:text-white">
                         Mahsulotlar
                     </h1>
                 </div>
                 <div>
-                    <div className="p-5 shadow-lg rounded-lg">
-                        <p className="text-center lg:text-lg">
+                    <div className="p-5 shadow-lg dark:shadow-white dark:shadow-md rounded-lg">
+                        <p className="text-center lg:text-lg dark:text-slate-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Ipsum pariatur enim a ad voluptatibus quos,
                             distinctio quae magnam dolor adipisci mollitia
@@ -33,160 +33,160 @@ const Product = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 lg:grid-cols-4 gap-4 mt-7">
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-95 transition-all">
+                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
                                 alt=""
                             />
-                            <strong className="block pl-4 mt-2">
+                            <strong className="block pl-4 mt-2 dark:text-white">
                                 Mahsulot nomi
                             </strong>
-                            <div className="flex items-center gap-x-2">
+                            <div className="flex items-center gap-x-2 dark:text-white">
                                 <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold"> 1200 $</p>
+                                <p className="text-2xl font-bold "> 1200 $</p>
                             </div>
-                            <p className="pl-4 text-zinc-500">
+                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Dignissimos, officiis? Esse ex
                                 repellat accusamus magnam commodi dolore

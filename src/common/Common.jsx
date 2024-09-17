@@ -2,13 +2,13 @@ import React from "react";
 
 const Common = () => {
     return (
-        <section className="pb-12">
+        <section className="pb-12 pt-8">
             <div className="container max-w-[1240px] mx-auto px-5">
-                <div className="border-2 rounded-xl py-6 px-3 bg-[#eff8f3]">
-                    <h2 className="text-center text-2xl lg:text-5xl font-semibold mb-5 text-[#253D4E]">
+                <div className="border-2 rounded-xl py-6 px-3 bg-[#eff8f3] dark:bg-[#0D0B0A] dark:shadow-white dark:shadow dark:border-black">
+                    <h2 className="text-center text-2xl lg:text-5xl font-semibold mb-5 text-[#253D4E] dark:text-white">
                         Energoaudit uzi nima ?
                     </h2>
-                    <p className="text-center text-[14px] lg:text-lg">
+                    <p className="text-center text-[14px] lg:text-lg dark:text-neutral-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Nobis sed sunt autem minus vel laborum voluptas
                         perspiciatis totam officiis earum, omnis similique odio

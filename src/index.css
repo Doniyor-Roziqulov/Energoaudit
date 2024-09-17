@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .site-header .active {
-  color: cadetblue;
-} */
+.site-header .active {
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+}
 
 * {
     scroll-behavior: smooth;
+    @apply transition-all duration-200;
 }
