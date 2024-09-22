@@ -11,7 +11,7 @@ import { VscArrowCircleLeft } from "react-icons/vsc";
 
 const Footer = () => {
     return (
-        <footer className="pb-10 pt-10 bg-stone-100 dark:bg-stone-800">
+        <footer className="overflow-x-hidden pb-10 pt-10 bg-stone-100 dark:bg-stone-800">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex flex-col gap-y-5 min-[500px]:flex-row min-[500px]:flex-wrap min-[640px]:justify-around min-[772px]:justify-between justify-between">
                     <div data-aos="fade-right" className="flex flex-col">
