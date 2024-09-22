@@ -5,6 +5,7 @@ import { aboutlist } from "@/static";
 const About = () => {
     const lists = aboutlist.map((e, inx) => (
         <div
+            data-aos="fade-up"
             key={inx}
             className={`border bg-white shadow-2xl
              dark:bg-zinc-800 rounded-lg px-4 pb-4 pt-3 min-[430px]:px-2 hover:scale-[1.02] transition-[0.3s]`}>

@@ -28,6 +28,8 @@ const Lists = () => {
                     </h1>
                 </div>
                 <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom"
                     className="font-semibold bg-slate-200 dark:bg-zinc-800 text-gray-700 border rounded-md border-gray-500"
                     dataSource={data}>
                     <div className="flex justify-start bg-zinc-300 dark:bg-zinc-950 pt-4 pb-3 px-7 rounded-t-md">

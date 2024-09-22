@@ -25,7 +25,7 @@ const Contact = () => {
                     </h1>
                 </div>
                 <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
-                    <div>
+                    <div data-aos="fade-up-right">
                         <Form
                             className="w-[280px] min-[480px]:w-[370px] min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:bg-slate-600 dark:text-white px-3 py-3 rounded-md"
                             layout="vertical"
@@ -92,7 +92,7 @@ const Contact = () => {
                             </Form.Item>
                         </Form>
                     </div>
-                    <div>
+                    <div data-aos="fade-up-left">
                         <div className="mb-3">
                             <strong className="block mb-3 text-2xl dark:text-white">
                                 Manzil

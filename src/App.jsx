@@ -13,8 +13,14 @@ import Price from "./pages/price/Price";
 import Work from "./pages/work/Work";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { useState, useEffect } from "react";
+import Aos from "aos";
+import "../node_modules/aos/dist/aos.css";
 
 function App() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     const [darkMode, setDarkMode] = useState(() => {
         const savedDarkMode = localStorage.getItem("darkMode");
         return savedDarkMode === "true" ? true : false;

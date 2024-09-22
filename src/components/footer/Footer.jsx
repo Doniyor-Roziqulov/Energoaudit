@@ -14,7 +14,7 @@ const Footer = () => {
         <footer className="pb-10 pt-10 bg-stone-100 dark:bg-stone-800">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex flex-col gap-y-5 min-[500px]:flex-row min-[500px]:flex-wrap min-[640px]:justify-around min-[772px]:justify-between justify-between">
-                    <div className="flex flex-col">
+                    <div data-aos="fade-right" className="flex flex-col">
                         <Link
                             className="text-2xl italic font-bold dark:text-white"
                             to={"/"}>
@@ -60,7 +60,7 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-y-2">
+                    <div data-aos="zoom-in" className="flex flex-col gap-y-2">
                         <strong className="text-xl dark:text-white text-[#253D4E]">
                             Sahifalar
                         </strong>
@@ -95,7 +95,7 @@ const Footer = () => {
                             ro'yxati
                         </Link>
                     </div>
-                    <div className="flex flex-col gap-y-2">
+                    <div data-aos="fade-left" className="flex flex-col gap-y-2">
                         <strong className="text-xl dark:text-white text-[#253D4E]">
                             Aloqa
                         </strong>

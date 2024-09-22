@@ -4,7 +4,7 @@ import "@/components/services/Services.css";
 
 const Services = () => {
     const lists = serviceslist.map((e, inx) => (
-        <li className="px-3 relative serlist" key={inx}>
+        <li data-aos="flip-right" className="px-3 relative serlist" key={inx}>
             <div className="flex justify-center">
                 <div className="serbox border-2 border-[#01bafd] p-4 rounded-full">
                     <img src={e.url} alt="" />

@@ -12,7 +12,9 @@ const Product = () => {
                     </h1>
                 </div>
                 <div>
-                    <div className="p-5 shadow-lg dark:shadow-white dark:shadow-md rounded-lg">
+                    <div
+                        data-aos="flip-down"
+                        className="p-5 shadow-lg dark:shadow-white dark:shadow-md rounded-lg">
                         <p className="text-center lg:text-lg dark:text-slate-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Ipsum pariatur enim a ad voluptatibus quos,
@@ -33,7 +35,9 @@ const Product = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 lg:grid-cols-4 gap-4 mt-7">
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -53,7 +57,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -73,7 +79,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -93,7 +101,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -113,7 +123,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -133,7 +145,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -153,7 +167,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
@@ -173,7 +189,9 @@ const Product = () => {
                                 adipisci repellendus quia.
                             </p>
                         </div>
-                        <div className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                        <div
+                            data-aos="zoom-out-up"
+                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
                             <img
                                 className="rounded-lg"
                                 src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
