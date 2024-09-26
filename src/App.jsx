@@ -10,7 +10,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import Price from "./pages/price/Price";
-import Work from "./pages/work/Work";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import Aos from "aos";
@@ -48,7 +47,6 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Layout />}>
                         <Route path="" element={<Home />} />
-                        <Route path="work" element={<Work />} />
                         <Route path="personnel" element={<Personnel />} />
                         <Route path="price" element={<Price />} />
                         <Route path="lists" element={<Korlist />} />

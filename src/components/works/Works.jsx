@@ -7,7 +7,7 @@ const Works = () => {
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
-                    <h1 className="text-2xl lg:text-4xl font-semibold">
+                    <h1 className="text-2xl lg:text-4xl font-semibold dark:text-white">
                         Korxonalar ro'yxati
                     </h1>
                 </div>
