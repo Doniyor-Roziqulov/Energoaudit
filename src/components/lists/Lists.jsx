@@ -24,7 +24,7 @@ const Lists = () => {
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
                     <h1 className="text-4xl font-semibold dark:text-white">
-                        Korxonalar ro'yxati
+                        Bizning ishlar
                     </h1>
                 </div>
                 <div

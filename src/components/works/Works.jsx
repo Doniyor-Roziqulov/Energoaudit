@@ -8,7 +8,7 @@ const Works = () => {
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
                     <h1 className="text-2xl lg:text-4xl font-semibold">
-                        Bizning ishlar
+                        Korxonalar ro'yxati
                     </h1>
                 </div>
             </div>

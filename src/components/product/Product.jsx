@@ -35,182 +35,27 @@ const Product = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 min-[500px]:grid-cols-2 min-[900px]:grid-cols-3 lg:grid-cols-4 gap-4 mt-7">
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
+                        {Array.from({ length: 8 }, (_, index) => (
+                            <div
+                                key={index}
+                                data-aos="zoom-out-up"
+                                className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                                <img
+                                    className="rounded-lg"
+                                    src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
+                                    alt=""
+                                />
+                                <strong className="block pl-4 mt-2 dark:text-white">
+                                    Mahsulot nomi
+                                </strong>
+                                <p className="pl-4 text-zinc-500 dark:text-slate-300">
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Dignissimos, officiis?
+                                    Esse ex repellat accusamus magnam commodi
+                                    dolore adipisci repellendus quia.
+                                </p>
                             </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
-                        <div
-                            data-aos="zoom-out-up"
-                            className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
-                            <img
-                                className="rounded-lg"
-                                src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"
-                                alt=""
-                            />
-                            <strong className="block pl-4 mt-2 dark:text-white">
-                                Mahsulot nomi
-                            </strong>
-                            <div className="flex items-center gap-x-2 dark:text-white">
-                                <strong className="block pl-4">Narxi: </strong>
-                                <p className="text-2xl font-bold "> 1200 $</p>
-                            </div>
-                            <p className="pl-4 text-zinc-500 dark:text-slate-300">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Dignissimos, officiis? Esse ex
-                                repellat accusamus magnam commodi dolore
-                                adipisci repellendus quia.
-                            </p>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>

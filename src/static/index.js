@@ -3,21 +3,22 @@ export const headerlist = [
         title: "Biz haqimizda",
         link: "/about",
     },
+
     {
         title: "Bizning ishlar",
-        link: "/work",
+        link: "/lists",
     },
     {
         title: "Xodimlar",
         link: "/personnel",
     },
     {
-        title: "Mahsulot narxlari",
+        title: "Mahsulotlar",
         link: "/price",
     },
     {
         title: "Korxonalar ro'yxati",
-        link: "/lists",
+        link: "/work",
     },
     {
         title: "Aloqa",
@@ -52,18 +53,11 @@ import img1 from "@/images/archive-fill.svg";
 import img2 from "@/images/icon2.svg";
 import img3 from "@/images/icon3.svg";
 import img4 from "@/images/icon4.svg";
-import img5 from "@/images/icon5.svg";
-import img6 from "@/images/icon6.svg";
-import img7 from "@/images/icon7.svg";
-import img8 from "@/images/icon8.svg";
-import img9 from "@/images/icon9.svg";
-import img10 from "@/images/icon10.svg";
-import img11 from "@/images/icon11.svg";
-import img12 from "@/images/icon12.svg";
-import img13 from "@/images/icon13.svg";
-import img14 from "@/images/icon14.svg";
-import img15 from "@/images/icon15.svg";
-import img16 from "@/images/icon16.svg";
+import img5 from "@/images/icon6.svg";
+import img6 from "@/images/icon8.svg";
+import img7 from "@/images/icon11.svg";
+import img8 from "@/images/icon12.svg";
+import img9 from "@/images/icon15.svg";
 
 export const serviceslist = [
     {
@@ -83,52 +77,24 @@ export const serviceslist = [
         url: img4,
     },
     {
-        text: "Sanoat korxonalarining energiya iste’molini tizimli tahlili",
+        text: "Energiya samaradorligini oshirish va energiya tejamkorligi dasturlarini ishlab chiqish",
         url: img5,
     },
     {
-        text: "Energiya samaradorligini oshirish va energiya tejamkorligi dasturlarini ishlab chiqish",
+        text: "Energiya resurslari sarfini me’yorlash bo‘yicha zamonaviy yondashuvlar. Statik va dinamik me’yor ko‘rsatkichlari",
         url: img6,
     },
     {
-        text: "Investitsion energetika auditi. Sanoat korxonasining energiya samaradorligi ko‘rsatkichlarini ishlab chiqish",
+        text: "Sanoat korxonalarida energetik menejment tizimi bo‘yicha ISO 50001 - xalqaro standartini joriy qilishga tayyorlash",
         url: img7,
     },
     {
-        text: "Energiya resurslari sarfini me’yorlash bo‘yicha zamonaviy yondashuvlar. Statik va dinamik me’yor ko‘rsatkichlari",
+        text: "Sanoat korxonalarida energiya samaradorligini oshirish va energiya iste’molini optimallashtirish",
         url: img8,
     },
     {
-        text: "Energetika tekshiruvini (energoaudit) tashkilotning o‘zi mustaqil o‘tkazishi uchun avtomatlashtirilgan tizimlarni ishlab chiqish",
-        url: img9,
-    },
-    {
-        text: "Sanoat korxonalarining energiya iste’moli uchun ma’lumotlar ombori va ularni boshqarish tizimlarini yaratish",
-        url: img10,
-    },
-    {
-        text: "Sanoat korxonalarida energetik menejment tizimi bo‘yicha ISO 50001 - xalqaro standartini joriy qilishga tayyorlash",
-        url: img11,
-    },
-    {
-        text: "Sanoat korxonalarida energiya samaradorligini oshirish va energiya iste’molini optimallashtirish",
-        url: img12,
-    },
-    {
-        text: "Ko’chma kalibrovka (qiyoslash) laboratoriyasi (kuchlanish transformatorlari, tok transformatorlari, elektr hisoblagichlari)",
-        url: img13,
-    },
-    {
-        text: "1000 V gacha bo'lgan elektrotexnik laboratoriya (elektr qurilmalarini sinash)",
-        url: img14,
-    },
-    {
         text: "Reaktiv quvvatni kompensatsiya qilish qurilmalarini hisoblash va yig’ib o’rnatish.",
-        url: img15,
-    },
-    {
-        text: "Avtonom quyosh elektr stantsiyalari va UEM (UPS) (ko'cha yoritgichlari, uy-joylar, kichik korxonalar va boshqalar)",
-        url: img16,
+        url: img9,
     },
 ];
 

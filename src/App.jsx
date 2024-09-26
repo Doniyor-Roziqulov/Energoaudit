@@ -15,6 +15,7 @@ import { FiMoon, FiSun } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import Aos from "aos";
 import "../node_modules/aos/dist/aos.css";
+import NotFound from "./components/notfound/NotFound";
 
 function App() {
     useEffect(() => {
@@ -52,6 +53,7 @@ function App() {
                         <Route path="price" element={<Price />} />
                         <Route path="lists" element={<Korlist />} />
                         <Route path="contact" element={<Call />} />
+                        <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
                 <button
