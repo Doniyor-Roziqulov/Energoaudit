@@ -56,11 +56,11 @@ function App() {
                 </Routes>
                 <button
                     onClick={toggleDarkMode}
-                    className="fixed border flex items-center justify-center w-12 h-12 bottom-16 right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black">
+                    className="fixed border flex items-center justify-center z-50 w-8 h-8 top-6 right-16 lg:right-4 min-[1389px]:right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black">
                     {darkMode ? (
-                        <FiSun className="text-xl" />
+                        <FiSun className="text-base" />
                     ) : (
-                        <FiMoon className="text-xl" />
+                        <FiMoon className="text-base" />
                     )}
                 </button>
             </div>

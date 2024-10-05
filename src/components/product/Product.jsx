@@ -39,7 +39,7 @@ const Product = () => {
                             <div
                                 key={index}
                                 data-aos="zoom-out-up"
-                                className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg hover:bg-[#def1fa] hover:scale-[0.99] transition-all">
+                                className="shadow-2xl dark:shadow-white dark:shadow-md dark:hover:bg-slate-950 pb-3 rounded-lg   transition-all">
                                 <img
                                     className="rounded-lg"
                                     src="https://sibledeks.ru/images/articles/energoaudit-2.jpg"

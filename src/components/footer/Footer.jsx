@@ -7,7 +7,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
-import { VscArrowCircleLeft } from "react-icons/vsc";
 
 const Footer = () => {
     return (
@@ -65,34 +64,29 @@ const Footer = () => {
                             Sahifalar
                         </strong>
                         <Link
-                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
+                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/about"}>
-                            <VscArrowCircleLeft className="inline" /> Biz
-                            haqimizda
+                            Biz haqimizda
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
+                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/work"}>
-                            <VscArrowCircleLeft className="inline" /> Bizning
-                            ishlar
+                            Bizning ishlar
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
+                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/personnel"}>
-                            <VscArrowCircleLeft className="inline" />
                             Xodimlar
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
+                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/price"}>
-                            <VscArrowCircleLeft className="inline" /> Mahsulot
-                            narxlari
+                            Mahsulot narxlari
                         </Link>
                         <Link
-                            className="hover:text-green-500 transition-all dark:text-gray-300 dark:hover:text-gray-500"
+                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/lists"}>
-                            <VscArrowCircleLeft className="inline" /> Korxonalar
-                            ro'yxati
+                            Korxonalar ro'yxati
                         </Link>
                     </div>
                     <div data-aos="fade-left" className="flex flex-col gap-y-2">

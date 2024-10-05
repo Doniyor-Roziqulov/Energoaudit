@@ -16,7 +16,7 @@ const Services = () => {
         </li>
     ));
     return (
-        <section className="pb-8 pt-4 dark:bg-stone-800">
+        <section className="pb-8 pt-4 ">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <h2 className="text-center text-3xl font-bold mb-3 dark:text-white">
                     Bizning xizmatlar

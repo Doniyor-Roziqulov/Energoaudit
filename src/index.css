@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 .site-header .active {
-    color: cadetblue;
-    border-bottom: 1px solid cadetblue;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.dark .site-header .active {
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 * {
