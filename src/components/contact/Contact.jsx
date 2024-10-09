@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Checkbox, Form, Input } from "antd";
 import {
     FaFacebook,
     FaInstagram,
@@ -8,12 +7,25 @@ import {
 } from "react-icons/fa";
 import { TfiAlignRight } from "react-icons/tfi";
 
+const BOT_TOKEN = "7736707923:AAGYwNyq8nTz3XXY5pn8KpnEozBwePIjDEw";
+const USER_ID = 6227525533;
+
 const Contact = () => {
-    const onFinish = (values) => {
-        console.log("Success:", values);
-    };
-    const onFinishFailed = (errorInfo) => {
-        console.log("Failed:", errorInfo);
+    const handleSendMessage = (e) => {
+        e.preventDefault();
+        let formData = new FormData(e.target);
+        let data = Object.fromEntries(formData.entries());
+        let text = "";
+        text += `<b>Mijoz</b> %0A`;
+        text += `<b>Ism:</b> <b>${data.fname}</b> %0A`;
+        text += `<b>Familiya:</b> <b>${data.lname}</b> %0A`;
+        text += `<b>Tel number:</b> <code>${data.number}</code> %0A`;
+        text += `<b>Xabar:</b> <i>${data.message}</i>`;
+        console.log(text);
+        let url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_ID}&text=${text}&parse_mode=html`;
+        let api = new XMLHttpRequest();
+        api.open("GET", url, true);
+        api.send();
     };
     return (
         <section className="pt-9 pb-9">
@@ -26,71 +38,66 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
                     <div data-aos="fade-up-right">
-                        <Form
-                            className="w-[280px] min-[480px]:w-[370px] min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:bg-slate-600 dark:text-white px-3 py-3 rounded-md"
-                            layout="vertical"
-                            name="basic"
-                            initialValues={{
-                                remember: true,
-                            }}
-                            onFinish={onFinish}
-                            onFinishFailed={onFinishFailed}
-                            autoComplete="off">
-                            <Form.Item
-                                label="Ismingizni kiriting"
-                                name="name"
-                                rules={[
-                                    {
-                                        required: true,
-                                        message: "Iltimos ismingizni kiriting!",
-                                    },
-                                ]}>
-                                <Input className="dark:bg-slate-800" />
-                            </Form.Item>
-                            <Form.Item
-                                label="Familiya kiriting"
-                                name="fname"
-                                rules={[
-                                    {
-                                        required: true,
-                                        message: "Iltimos familiya kiriting!",
-                                    },
-                                ]}>
-                                <Input className="dark:bg-slate-800" />
-                            </Form.Item>
-                            <Form.Item
-                                label="Telefon raqam kiriting"
-                                name="number"
-                                rules={[
-                                    {
-                                        required: true,
-                                        message:
-                                            "Iltimos telefon raqamingizni kiriting!",
-                                    },
-                                ]}>
-                                <Input className="dark:bg-slate-800" />
-                            </Form.Item>
-                            <Form.Item
-                                className="dark:text-white"
-                                label="Xabar yozing"
-                                name="textaria"
-                                rules={[
-                                    {
-                                        required: true,
-                                        message: "Xabar kiriting!",
-                                    },
-                                ]}>
-                                <Input.TextArea className="dark:bg-slate-800" />
-                            </Form.Item>
-                            <Form.Item>
-                                <Button
-                                    className="w-full"
-                                    type="primary"
-                                    htmlType="submit">
-                                    Submit
-                                </Button>
-                            </Form.Item>
-                        </Form>
+                        <form
+                            onSubmit={handleSendMessage}
+                            className="w-[280px] min-[480px]:w-[370px] flex flex-col gap-y-4 min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:text-white px-3 py-3 rounded-md"
+                            action="">
+                            <div className="flex flex-col gap-y-2">
+                                <label className={"flex items-center"}>
+                                    <span className="text-red-500">*</span>{" "}
+                                    Ismingizni kiriting
+                                </label>
+                                <input
+                                    autoComplete="off"
+                                    className="border py-1 pl-2 rounded-lg border-neutral-600 dark:bg-neutral-800 dark:border-white"
+                                    required
+                                    name="fname"
+                                    type="text"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-y-2">
+                                <label className="flex items-center">
+                                    <span className="text-red-500">*</span>
+                                    {"  "}
+                                    Familiya kiriting
+                                </label>
+                                <input
+                                    autoComplete="off"
+                                    className="border py-1 pl-2 rounded-lg border-neutral-600 dark:bg-neutral-800 dark:border-white"
+                                    required
+                                    name="lname"
+                                    type="text"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-y-2">
+                                <label className="flex items-center">
+                                    <span className="text-red-500">*</span>{" "}
+                                    Telefon raqam kiriting
+                                </label>
+                                <input
+                                    autoComplete="off"
+                                    className="border py-1 pl-2 rounded-lg border-neutral-600 dark:bg-neutral-800 dark:border-white"
+                                    required
+                                    placeholder="+998942860422"
+                                    name="number"
+                                    type="text"
+                                />
+                            </div>
+                            <div className="flex flex-col gap-y-2">
+                                <label className="flex items-center">
+                                    <span className="text-red-500">*</span>{" "}
+                                    Xabar yozing
+                                </label>
+                                <textarea
+                                    autoComplete="off"
+                                    className="border py-1 pl-2 rounded-lg border-neutral-600 dark:bg-neutral-800 dark:border-white"
+                                    name="message"
+                                    id=""></textarea>
+                            </div>
+                            <button className="w-full bg-black text-white py-2 rounded-lg border transition-all hover:bg-white hover:text-black hover:border-black font-semibold text-base">
+                                Submit
+                            </button>
+                        </form>
                     </div>
                     <div data-aos="fade-up-left">
                         <div className="mb-3">
