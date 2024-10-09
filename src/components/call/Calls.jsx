@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 
 const Calls = () => {
     return (
-        <div className="fixed left-10 bottom-10">
+        <div className="fixed right-10 lg:left-10 bottom-10 z-50">
             <a
                 title="Biz bilan bog'lanish"
                 href="tel:+998942860422"

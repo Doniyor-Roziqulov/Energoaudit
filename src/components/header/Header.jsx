@@ -87,17 +87,17 @@ const AnimatedHamburgerButton = ({ setOpenMenu, openMenu }) => {
                 className="fixed top-2 right-2 h-[60px] w-[60px] lg:hidden rounded-full transition-colors">
                 <motion.span
                     variants={VARIANTS.top}
-                    className="absolute h-[2px] w-8 bg-black"
+                    className="absolute h-[2px] w-8 bg-black dark:bg-white"
                     style={{ y: "-50%", left: "50%", x: "-50%", top: "35%" }}
                 />
                 <motion.span
                     variants={VARIANTS.middle}
-                    className="absolute h-[2px] w-8 bg-black"
+                    className="absolute h-[2px] w-8 bg-black dark:bg-white"
                     style={{ left: "50%", x: "-50%", top: "50%", y: "-50%" }}
                 />
                 <motion.span
                     variants={VARIANTS.bottom}
-                    className="absolute h-[2px] w-5 bg-black"
+                    className="absolute h-[2px] w-5 bg-black dark:bg-white"
                     style={{
                         x: "-70%",
                         y: "50%",
