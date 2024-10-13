@@ -26,6 +26,7 @@ const Header = () => {
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center justify-between">
                     <Link
+                        onClick={() => setOpenMenu(false)}
                         className="text-2xl dark:text-white italic font-bold"
                         to={"/"}>
                         LOGO
@@ -80,7 +81,7 @@ const AnimatedHamburgerButton = ({ setOpenMenu, openMenu }) => {
             }}>
             <motion.button
                 initial={false}
-                animate={active ? "open" : "closed"}
+                animate={(active, openMenu) ? "open" : "closed"}
                 onClick={() => {
                     setActive((pv) => !pv), setOpenMenu(!openMenu);
                 }}

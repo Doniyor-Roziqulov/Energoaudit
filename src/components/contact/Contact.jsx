@@ -28,7 +28,7 @@ const Contact = () => {
         api.send();
     };
     return (
-        <section className="pt-9 pb-9">
+        <section className="pt-9 pb-9 overflow-x-hidden">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />

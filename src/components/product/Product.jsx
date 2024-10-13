@@ -3,7 +3,7 @@ import { TfiAlignRight } from "react-icons/tfi";
 
 const Product = () => {
     return (
-        <section className="py-8">
+        <section className="py-8 overflow-x-hidden">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />

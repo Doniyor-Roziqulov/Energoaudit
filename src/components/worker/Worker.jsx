@@ -7,7 +7,7 @@ import { HiOutlineCheck } from "react-icons/hi";
 
 const Worker = () => {
     return (
-        <section className="py-9 bg-[#ecf2f5] dark:bg-transparent">
+        <section className="py-9 bg-[#ecf2f5] dark:bg-transparent overflow-x-hidden">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center gap-x-4 mb-4">
                     <TfiAlignRight className="text-2xl text-blue-500" />
