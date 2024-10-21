@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 import Aos from "aos";
 import "../node_modules/aos/dist/aos.css";
 import NotFound from "./components/notfound/NotFound";
+import "./App.css";
 
 function App() {
     useEffect(() => {

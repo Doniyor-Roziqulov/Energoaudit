@@ -28,23 +28,23 @@ export const headerlist = [
 
 export const aboutlist = [
     {
-        title: "Lorem ipsum dolor.",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicingelit. Hic reprehenderit ad dolores laudantium magnirepudiandae labore illo ratione quam debitis?",
+        title: "Energiya Tejamkorligi",
+        text: "Energiya resurslaridan optimal va samarali foydalanish orqali energiya sarfini kamaytirish, ishlab chiqarish, iste'mol jarayonlarini yaxshilashga va xarajatlarni qisqartirishga yordam beradi.",
         color: "#F2FCE4",
     },
     {
-        title: "Lorem ipsum dolor.",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicingelit. Hic reprehenderit ad dolores laudantium magnirepudiandae labore illo ratione quam debitis?",
+        title: "Innovatsiya",
+        text: "Yangi g'oyalar, mahsulotlar yoki jarayonlarni yaratish yoki mavjudlarini yaxshilash jarayoni, xizmatlarni va ishlab chiqarish usullarini rivojlantirish orqali raqobatbardoshlikni oshiradi va iqtisodiy o'sishni ta'minlaydi.",
         color: "#FFFCEB",
     },
     {
-        title: "Lorem ipsum dolor.",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicingelit. Hic reprehenderit ad dolores laudantium magnirepudiandae labore illo ratione quam debitis?",
+        title: "Tejamkor Ishlab Chiqarish",
+        text: "Ishlab chiqarish jarayonlarini optimallashtirish va resurslardan samarali foydalanish orqali xarajatlarni kamaytirish va samaradorlikni oshirishga qaratilgan metodologiyalar to'plami",
         color: "#ECFFEC",
     },
     {
-        title: "Lorem ipsum dolor.",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicingelit. Hic reprehenderit ad dolores laudantium magnirepudiandae labore illo ratione quam debitis?",
+        title: "Energiya Konsalting",
+        text: "Energiya samaradorligini oshirish, energiya resurslaridan foydalanishni optimallashtirish va xarajatlarni kamaytirish maqsadida muhandislik va konsultatsiya xizmatlarini taqdim etish jarayoni",
         color: "#FEEFEA",
     },
 ];
