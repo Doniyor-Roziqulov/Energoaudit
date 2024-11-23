@@ -65,28 +65,23 @@ const Footer = () => {
                         </strong>
                         <Link
                             className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-                            to={"/about"}>
+                            to={"/lists"}>
                             Biz haqimizda
                         </Link>
                         <Link
                             className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-                            to={"/work"}>
-                            Bizning ishlar
-                        </Link>
-                        <Link
-                            className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/personnel"}>
-                            Xodimlar
+                            Xizmatlar va mahsulotlar
                         </Link>
                         <Link
                             className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
                             to={"/price"}>
-                            Mahsulot narxlari
+                            Foydali ma'lumotlar
                         </Link>
                         <Link
                             className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-                            to={"/lists"}>
-                            Korxonalar ro'yxati
+                            to={"/contact"}>
+                            Aloqa
                         </Link>
                     </div>
                     <div data-aos="fade-left" className="flex flex-col gap-y-2">

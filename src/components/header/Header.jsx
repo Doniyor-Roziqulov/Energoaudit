@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { headerlist } from "@/static";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoCloseSharp } from "react-icons/io5";
 import { MotionConfig, motion } from "framer-motion";
 
 const Header = () => {
@@ -22,7 +20,7 @@ const Header = () => {
     ));
     const [openMenu, setOpenMenu] = useState(false);
     return (
-        <header className="fixed dark:bg-gray-900 py-6 bg-white site-header border-b shadow-md left-0 top-0 z-40 w-full">
+        <header className="fixed dark:bg-gray-900 py-4 bg-white site-header border-b shadow-md left-0 top-[50px] z-40 w-full">
             <div className="container max-w-[1240px] mx-auto px-5">
                 <div className="flex items-center justify-between">
                     <Link

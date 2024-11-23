@@ -1,24 +1,20 @@
 export const headerlist = [
     {
-        title: "Biz haqimizda",
-        link: "/about",
+        title: "Bosh sahifa",
+        link: "/",
     },
 
     {
-        title: "Bizning ishlar",
+        title: "Biz haqimizda",
         link: "/lists",
     },
     {
-        title: "Xodimlar",
+        title: "Xizmatlar va mahsulotlar",
         link: "/personnel",
     },
     {
-        title: "Mahsulotlar",
+        title: "Foydali ma'lumotlar",
         link: "/price",
-    },
-    {
-        title: "Korxonalar ro'yxati",
-        link: "/work",
     },
     {
         title: "Aloqa",
@@ -26,26 +22,47 @@ export const headerlist = [
     },
 ];
 
+import about1 from "@/images/about1.png"
+import about2 from "@/images/about2.png"
+import about3 from "@/images/about3.png"
+import about4 from "@/images/about4.png"
+import about5 from "@/images/about5.png"
+import about6 from "@/images/about6.png"
+import about7 from "@/images/about7.png"
+import about8 from "@/images/about8.png"
+
 export const aboutlist = [
     {
-        title: "Energiya Tejamkorligi",
-        text: "Energiya resurslaridan optimal va samarali foydalanish orqali energiya sarfini kamaytirish, ishlab chiqarish, iste'mol jarayonlarini yaxshilashga va xarajatlarni qisqartirishga yordam beradi.",
-        color: "#F2FCE4",
+        title: "Korxonalarda va binolarda energetik tekshiruv (energoaudit) o’tkazish",
+        url:about1
     },
     {
-        title: "Innovatsiya",
-        text: "Yangi g'oyalar, mahsulotlar yoki jarayonlarni yaratish yoki mavjudlarini yaxshilash jarayoni, xizmatlarni va ishlab chiqarish usullarini rivojlantirish orqali raqobatbardoshlikni oshiradi va iqtisodiy o'sishni ta'minlaydi.",
-        color: "#FFFCEB",
+        title: "Korxonalarning energiya-samaradorlik chora-tadbirlarini (OTM) ishlab chiqish",
+        url:about2
     },
     {
-        title: "Tejamkor Ishlab Chiqarish",
-        text: "Ishlab chiqarish jarayonlarini optimallashtirish va resurslardan samarali foydalanish orqali xarajatlarni kamaytirish va samaradorlikni oshirishga qaratilgan metodologiyalar to'plami",
-        color: "#ECFFEC",
+        title: "Mahsulot birligiga sarflanayotgan energiyaning solishtirma sarfini ishlab chiqish", 
+        url:about3
     },
     {
-        title: "Energiya Konsalting",
-        text: "Energiya samaradorligini oshirish, energiya resurslaridan foydalanishni optimallashtirish va xarajatlarni kamaytirish maqsadida muhandislik va konsultatsiya xizmatlarini taqdim etish jarayoni",
-        color: "#FEEFEA",
+        title: "Yoqilg‘i iste’mol qiluvchi qurilmalarda rejim-sozlash sinov ishlarini o‘tkazish", 
+        url:about4
+    },
+    {
+        title: "AGTKShlarda tabiiy gaz yo’qotilish normasini ishlab chiqish",
+         url:about5
+    },
+    {
+        title: "Sanoat kimyoviy tozalash maxsulotlari",
+         url:about6
+    },
+    {
+        title: "Isitish, sovutish va issiq suv ta’minoti tizimlarini loyihalash",
+         url:about7
+    },
+    {
+        title: "Sanoat va maishiy havoni ma’romlash uskunalari", 
+        url:about8
     },
 ];
 
