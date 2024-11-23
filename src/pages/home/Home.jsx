@@ -5,15 +5,13 @@ import Services from "@/components/services/Services";
 import Use from "@/components/use/Use";
 
 const Home = () => {
-    return (
-        <>
-            <Hero />
-            <About />
-            {/* <Services /> */}
-            {/* <Common /> */}
-            <Use/>
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <About />
+      <Use />
+    </>
+  );
 };
 
 export default Home;
