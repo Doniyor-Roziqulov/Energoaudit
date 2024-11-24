@@ -3,8 +3,8 @@ import React from "react";
 const Hvac = () => {
   return (
     <section className="py-6">
-      <div className="container mx-auto max-w-[1240px]">
-        <div className="text-xl dark:text-white">
+      <div className="container mx-auto max-w-[1240px] px-4 lg:px-0">
+        <div className="lg:text-xl dark:text-white">
           HVAC (Heating, Ventilation and Air Conditioning) tizimlarini
           loyihalash — bu binolarda isitish, shamollatish va konditsionerlash
           tizimlarini samarali va qulay ishlashni ta’minlash uchun mo'ljallangan

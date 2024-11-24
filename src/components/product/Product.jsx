@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <section className="py-8 overflow-x-hidden">
       <div className="container max-w-[1240px] mx-auto px-5">
-        <p className="pb-8 text-xl dark:text-white">
+        <p className="pb-8 lg:text-xl dark:text-white">
           Energiya auditi– O‘zbekiston respublikasining 2024-yil 7-avgustdagi
           940-sonli “Energiyani tejash, undan oqilona foydalanish va energiya
           samaradorligini oshirish to‘g‘risida” gi qonunni (lex.uz silka) hamda 

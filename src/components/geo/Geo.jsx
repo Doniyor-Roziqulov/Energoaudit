@@ -9,11 +9,11 @@ import geo6 from "@/images/geo6.png";
 const Geo = () => {
   return (
     <section className="py-7">
-      <div className="container mx-auto max-w-[1240px]">
+      <div className="container mx-auto max-w-[1240px] px-4 lg:px-0">
         <div className="dark:text-white">
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white">
             <img src={geo1} alt="" />
-            <p className="text-2xl">
+            <p className="lg:text-2xl">
               1. Geo treat 1000. (Katalog) Plastik harorati 180 °C dan yuqori
               bo‘lgan geotermal suv quduqlari uchun, xususan, geotermal elektr
               stansiyalarida ishlatish uchun ishlab chiqilgan, suvning yuqori
@@ -23,8 +23,8 @@ const Geo = () => {
               oluvchi mahsulot.
             </p>
           </div>
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
-            <p className="text-2xl">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
+            <p className="lg:text-2xl">
               2. MET-TREAT. Metall yuzasiga kimyoviy ishlov beruvchi mahsulot.
               (Katalog) Konservatsiyalovchi moylar — bu mineral moylar va
               eritgichlar asosida tayyorlangan mahsulot bo‘lib, ular himoya
@@ -33,9 +33,9 @@ const Geo = () => {
             </p>
             <img src={geo2} alt="" />
           </div>
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
             <img src={geo3} alt="" />
-            <p className="text-2xl">
+            <p className="lg:text-2xl">
               3. Mine TREAT Tog‘-kon texnologiyalari. Pomol va maydalashni
               jadallashtiruvchi moddalar. Pomol va maydalash intensifikatorlari
               maydalash va pomol tsikllarini optimallashtirishga yordam beradi.
@@ -43,8 +43,8 @@ const Geo = () => {
               o‘z ichiga olib, pomol samaradorligini oshirishga ko‘maklashadi
             </p>
           </div>
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
-            <p className="text-2xl">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
+            <p className="lg:text-2xl">
               4. OIL TREAT. Neft-gaz sanoati maxsulotlari. Neft va gaz qazib
               olish uchun kimyoviy reagentlar qazib olish hajmini va
               uglevodorodlarni umumiy chiqarishni oshirishga yordam beradi,
@@ -53,17 +53,17 @@ const Geo = () => {
             </p>
             <img src={geo4} alt="" />
           </div>
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
             <img src={geo5} alt="" />
-            <p className="text-2xl">
+            <p className="lg:text-2xl">
                5.Waste TREAT. Oqava suvlarni tozalash texnologiyalari. Oqova
               suvlarni tozalash uchun organik koagulyantlar — suvdagi suzuvchi
               moddalar miqdorini kamaytirish uchun maxsus ishlab chiqilgan
               yuqori samarador organik koagulyantlar qatoridir.
             </p>
           </div>
-          <div className="flex items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
-            <p className="text-2xl">
+          <div className="flex flex-col gap-y-3 lg:flex-row items-center gap-x-10 pb-[60px] border-b border-black dark:border-white pt-10">
+            <p className="lg:text-2xl">
                6.Wet TREAT. Qozon suvini tozalash  Qozonning ishlash muddatini
               uzaytirish, texnik xizmat ko'rsatish xarajatlarini
               minimallashtirish, rejadan tashqari uzilishlarning oldini olish va

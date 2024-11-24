@@ -15,7 +15,7 @@ const Use = () => {
         <h2 className="text-3xl text-center mb-4 dark:text-white">
           Bizning afzaliklarimiz
         </h2>
-        <div className="grid grid-cols-4 gap-x-5 mb-20">
+        <div className="grid grid-cols-1 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
           <div className="py-4 bg-[#D9D9D9] flex items-center justify-center px-0">
             <p className="text__use">Tajriba va ishonch</p>
           </div>
@@ -29,7 +29,10 @@ const Use = () => {
             <p className="text__use">O’lchov asboblari majmuasi</p>
           </div>
         </div>
-        <div className="flex items-center justify-between pb-6">
+        <div
+          className="flex items-center flex-col sm:flex-row flex-wrap
+         gap-y-2 justify-between pb-6"
+        >
           <img src={logo1} alt="" />
           <img src={logo2} alt="" />
           <img src={logo3} alt="" />

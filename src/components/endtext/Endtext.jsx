@@ -3,9 +3,9 @@ import React from "react";
 const Endtext = () => {
   return (
     <section className="py-6">
-      <div className="container mx-auto max-w-[1240px]">
+      <div className="container mx-auto max-w-[1240px] px-4 lg:px-0">
         <div>
-          <p className="text-xl dark:text-white">
+          <p className="lg:text-xl dark:text-white">
                       O‘zbekiston respublikasi Vazirlar Mahkamasining 2017 yil
             11 oktyabrdagi 815-sonli qarori va boshqa meʼyoriy huquqiy
             xujjatlarga muvofiq avtomobillarga siqilgan gaz to‘ldirish

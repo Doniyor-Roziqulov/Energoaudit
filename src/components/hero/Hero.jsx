@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       style={{ backgroundImage: `url(${bgone})` }}
-      className="pt-[253px] pb-[140px] bg-cover bg-no-repeat"
+      className="lg:pt-[253px] py-20 lg:pb-[140px] bg-cover bg-no-repeat"
     >
       <div className="container mx-auto">
         <div data-aos="zoom-in">

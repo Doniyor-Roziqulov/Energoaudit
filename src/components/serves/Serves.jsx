@@ -3,8 +3,8 @@ import React from "react";
 const Serves = () => {
   return (
     <section>
-      <div className="container mx-auto max-w-[1240px] pt-7">
-        <p className="pb-8 text-xl dark:text-white  border-b border-black">
+      <div className="container mx-auto max-w-[1240px] pt-7 px-4 lg:px-0">
+        <p className="pb-8 lg:text-xl dark:text-white  border-b border-black">
           Energiya auditi – bu tizimli va chuqur tekshiruv bo‘lib, u orqali
           korxonalar, binolar yoki boshqa inshootlarda energiya resurslarining
           iste’moli, samaradorligi va yo‘qotilishi aniqlanadi. Ushbu jarayon,
@@ -118,7 +118,7 @@ const Serves = () => {
           xarajatlarni kamaytirish va ekologik jihatdan xavfsiz faoliyat
           yuritishni ta'minlash uchun asosiy qadam hisoblanadi.
         </p>
-        <div className="text-black dark:text-white text-xl pt-5 pb-5 border-b border-black">
+        <div className="text-black dark:text-white lg:text-xl pt-5 pb-5 border-b border-black">
           <p>Energiya Tejash Tadbirlariga Mo‘ljallangan Davriy Reja</p>
           <p>
             Energiya tejash tadbirlariga mo‘ljallangan davriy reja binolar va
@@ -217,7 +217,7 @@ const Serves = () => {
           oshirishga va energiya iste'molini kamaytirishga yordam beradi.
         </div>
         <div className="pt-5">
-          <div className="dark:text-white text-xl pb-5 border-b border-black">
+          <div className="dark:text-white lg:text-xl pb-5 border-b border-black">
             <p>
               <span className="pl-14">Bugungi</span> kunda ko‘plab davlatlar
               energiya iste’molini kamaytirish va resurslardan oqilona
@@ -360,7 +360,7 @@ const Serves = () => {
           </div>
         </div>
         <div>
-          <div className="text-xl dark:text-white pb-5 border-b border-black">
+          <div className="lg:text-xl dark:text-white pb-5 border-b border-black">
             Rejim sozlash ishlari o’tkazish uchun asos <br />{" "}
             <p>
                  O’zbekiston Repsublikasi Vazirlar Mahkamsining 2024-yil

@@ -18,55 +18,56 @@ import NotFound from "./components/notfound/NotFound";
 import "./App.css";
 
 function App() {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-    }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
-    const [darkMode, setDarkMode] = useState(() => {
-        const savedDarkMode = localStorage.getItem("darkMode");
-        return savedDarkMode === "true" ? true : false;
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedDarkMode = localStorage.getItem("darkMode");
+    return savedDarkMode === "true" ? true : false;
+  });
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevMode) => {
+      localStorage.setItem("darkMode", !prevMode);
+      return !prevMode;
     });
+  };
 
-    const toggleDarkMode = () => {
-        setDarkMode((prevMode) => {
-            localStorage.setItem("darkMode", !prevMode);
-            return !prevMode;
-        });
-    };
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
 
-    useEffect(() => {
-        if (darkMode) {
-            document.body.classList.add("dark");
-        } else {
-            document.body.classList.remove("dark");
-        }
-    }, [darkMode]);
-
-    return (
-        <>
-            <div className={`${darkMode ? "dark" : ""}`}>
-                <Routes>
-                    <Route path="/" element={<Layout />}>
-                        <Route path="" element={<Home />} />
-                        <Route path="personnel" element={<Personnel />} />
-                        <Route path="price" element={<Price />} />
-                        <Route path="lists" element={<Korlist />} />
-                        <Route path="contact" element={<Call />} />
-                        <Route path="*" element={<NotFound />} />
-                    </Route>
-                </Routes>
-                <button
-                    onClick={toggleDarkMode}
-                    className="fixed border flex items-center justify-center z-50 w-8 h-8 top-16 right-16 lg:right-4 min-[1389px]:right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black">
-                    {darkMode ? (
-                        <FiSun className="text-base" />
-                    ) : (
-                        <FiMoon className="text-base" />
-                    )}
-                </button>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className={`${darkMode ? "dark" : ""}`}>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route path="" element={<Home />} />
+            <Route path="personnel" element={<Personnel />} />
+            <Route path="price" element={<Price />} />
+            <Route path="lists" element={<Korlist />} />
+            <Route path="contact" element={<Call />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+        <button
+          onClick={toggleDarkMode}
+          className="fixed border flex items-center justify-center z-50 w-8 h-8 top-4 lg:top-16 right-16 lg:right-4 min-[1389px]:right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black"
+        >
+          {darkMode ? (
+            <FiSun className="text-base" />
+          ) : (
+            <FiMoon className="text-base" />
+          )}
+        </button>
+      </div>
+    </>
+  );
 }
 
 export default App;

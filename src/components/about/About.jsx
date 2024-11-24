@@ -8,7 +8,7 @@ const About = () => {
       key={inx}
       style={{ backgroundImage: `url(${e.url})` }}
       className={`border bg-[#000d] shadow-2xl
-             dark:bg-zinc-800 rounded-[49px] px-4 pb-4 h-[216px] pt-3 min-[430px]:px-2 hover:scale-[1.02] transition-[0.3s]`}
+             dark:bg-zinc-800 rounded-[49px] bg-no-repeat bg-cover px-4 pb-4 h-[216px] pt-3 min-[430px]:px-2 hover:scale-[1.02] transition-[0.3s]`}
     >
       <h2 className="text-center about__title text-xl font-bold mb-2 dark:text-white">
         {e.title}
