@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <div data-aos="zoom-in">
           <div className=" w-full">
-            <h1 className="hero__title">
+            <h1 className="hero__title dark:text-black">
               Energiya iste'moli harajatlarni qisqartirish, chiqindi gazlarni
               kamaytirish hamda barqaror rivojlanish uchun innovatsion yechimlar
             </h1>
