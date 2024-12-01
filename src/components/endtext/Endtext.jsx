@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Endtext = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="py-6">
       <div className="container mx-auto max-w-[1240px] px-4 lg:px-0">

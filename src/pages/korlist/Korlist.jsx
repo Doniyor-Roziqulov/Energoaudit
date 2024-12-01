@@ -5,15 +5,17 @@ import Text from "@/components/text/Text";
 import React, { useEffect } from "react";
 
 const Korlist = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
-    return <>
-    <Img/>
-    <Text/>
-    <Perimg/>
-    <Kamera/>
-    </>;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <>
+      <Img />
+      <Text />
+      <Perimg />
+      <Kamera />
+    </>
+  );
 };
 
 export default Korlist;

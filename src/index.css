@@ -3,16 +3,21 @@
 @tailwind utilities;
 
 .site-header .active {
-    color: black;
-    border-bottom: 1px solid black;
+  color: black;
+  /* border-bottom: 1px solid black; */
+}
+
+.linkheader__box .active {
+  color: white;
+  background-color: rgb(100, 94, 94);
 }
 
 .dark .site-header .active {
-    color: white;
-    border-bottom: 1px solid white;
+  color: white;
+  /* border-bottom: 1px solid white; */
 }
 
 * {
-    scroll-behavior: smooth;
-    @apply transition-all duration-200;
+  scroll-behavior: smooth;
+  @apply transition-all duration-200;
 }

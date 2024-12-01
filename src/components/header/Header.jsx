@@ -2,32 +2,78 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { headerlist } from "@/static";
 import { MotionConfig, motion } from "framer-motion";
+import { FaCaretDown } from "react-icons/fa6";
 
 const Header = () => {
   const list = headerlist.map((e, inx) => (
     <li
-      className=" text-neutral-600  dark:text-neutral-300 border-neutral-600 font-semibold hover:opacity-70 transition-all"
+      className=" text-neutral-600 relative link__item lg:pb-4 dark:text-neutral-300  font-semibold  transition-all"
       key={inx}
     >
       <NavLink
-        className="border-b border-white dark:border-slate-900"
+        className="border-b flex items-center gap-x-2 border-white dark:border-slate-900 hover:opacity-70"
         to={e.link}
-        onClick={() => {
-          setOpenMenu(!openMenu);
-        }}
+        // onClick={() => {
+        //   setOpenMenu(!openMenu);
+        // }}
       >
         {e.title}
+        {e.link1 && <FaCaretDown />}
       </NavLink>
+      <div className="hidden flex-col absolute top-10 border-t w-[300px] linkheader__box text-sm">
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link1}
+        >
+          {e.name1}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link2}
+        >
+          {e.name2}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link3}
+        >
+          {e.name3}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link4}
+        >
+          {e.name4}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link5}
+        >
+          {e.name5}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link6}
+        >
+          {e.name6}
+        </NavLink>
+        <NavLink
+          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          to={e.link7}
+        >
+          {e.name7}
+        </NavLink>
+      </div>
     </li>
   ));
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <header className="fixed dark:bg-gray-900 py-4 bg-white site-header border-b shadow-md left-0 lg:top-[50px] z-40 w-full">
+    <header className="fixed dark:bg-gray-900 py-4 lg:py-0 lg:pt-4 bg-white site-header border-b shadow-md left-0 lg:top-[50px] z-40 w-full">
       <div className="container max-w-[1240px] mx-auto px-5">
         <div className="flex items-center justify-between">
           <Link
             onClick={() => setOpenMenu(false)}
-            className="text-2xl dark:text-white italic font-bold"
+            className="text-2xl dark:text-white lg:pb-4 italic font-bold"
             to={"/"}
           >
             LOGO
@@ -39,7 +85,7 @@ const Header = () => {
                 : "block lg:block min-[500px]:px-16 md:px-20 lg:p-0 lg:left-[-35px] lg:h-auto lg:top-0 lg:relative absolute top-[65px] transition-[0.5s] pl-5 left-[-3000px] dark:bg-slate-900 z-10 bg-white h-screen"
             }
           >
-            <ul className="flex flex-col lg:flex-row items-start gap-x-6 gap-y-3">
+            <ul className="flex flex-col header__list lg:flex-row items-start gap-x-6 gap-y-3">
               {list}
             </ul>
           </nav>

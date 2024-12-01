@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import geo1 from "@/images/geo1.png";
 import geo2 from "@/images/geo2.png";
 import geo3 from "@/images/geo3.png";
@@ -7,6 +7,9 @@ import geo5 from "@/images/geo5.png";
 import geo6 from "@/images/geo6.png";
 
 const Geo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="py-7">
       <div className="container mx-auto max-w-[1240px] px-4 lg:px-0">

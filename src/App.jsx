@@ -16,6 +16,20 @@ import Aos from "aos";
 import "../node_modules/aos/dist/aos.css";
 import NotFound from "./components/notfound/NotFound";
 import "./App.css";
+import Employees from "./components/employees/Employees";
+import Workdone from "./components/workdone/Workdone";
+import Instruments from "./components/instruments/Instruments";
+import Audit from "./components/audit/Audit";
+import Otm from "./components/otm/Otm";
+import Unity from "./components/unity/Unity";
+import Regime from "./components/regime/Regime";
+import Geo from "./components/geo/Geo";
+import Hvac from "./components/hvac/Hvac";
+import Endtext from "./components/endtext/Endtext";
+import Inspection from "./components/inspection/Inspection";
+import Natural from "./components/natural/Natural";
+import Sun from "./components/sun/Sun";
+import Calculyator from "./components/calculyator/Calculyator";
 
 function App() {
   useEffect(() => {
@@ -48,9 +62,23 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="" element={<Home />} />
-            <Route path="personnel" element={<Personnel />} />
-            <Route path="price" element={<Price />} />
-            <Route path="lists" element={<Korlist />} />
+            <Route path="employees" element={<Employees />} />
+            <Route path="workdone" element={<Workdone />} />
+            <Route path="instruments" element={<Instruments />} />
+            {/* <Route path="lists" element={<Korlist />} /> */}
+            <Route path="audit" element={<Audit />} />
+            <Route path="otm" element={<Otm />} />
+            <Route path="unity" element={<Unity />} />
+            <Route path="regime" element={<Regime />} />
+            <Route path="chemical" element={<Geo />} />
+            <Route path="hvac" element={<Hvac />} />
+            <Route path="agtksh" element={<Endtext />} />
+            {/* <Route path="personnel" element={<Personnel />} /> */}
+            <Route path="inspection" element={<Inspection />} />
+            <Route path="natural" element={<Natural />} />
+            <Route path="sun" element={<Sun />} />
+            <Route path="calculyator" element={<Calculyator />} />
+            {/* <Route path="price" element={<Price />} /> */}
             <Route path="contact" element={<Call />} />
             <Route path="*" element={<NotFound />} />
           </Route>

@@ -36,7 +36,7 @@ const Contact = () => {
           <h1 className="text-4xl font-semibold dark:text-white">Aloqa</h1>
         </div>
         <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
-          <div data-aos="fade-up-right">
+          <div>
             <form
               onSubmit={handleSendMessage}
               className="w-[280px] min-[480px]:w-[370px] flex flex-col gap-y-4 min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:text-white px-3 py-3 rounded-md"
