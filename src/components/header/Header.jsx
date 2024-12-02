@@ -44,7 +44,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link1}
             >
               {e.name1}
@@ -53,7 +53,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link2}
             >
               {e.name2}
@@ -62,7 +62,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link3}
             >
               {e.name3}
@@ -71,7 +71,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link4}
             >
               {e.name4}
@@ -80,7 +80,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link5}
             >
               {e.name5}
@@ -89,7 +89,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link6}
             >
               {e.name6}
@@ -98,7 +98,7 @@ const Header = () => {
               onClick={() => {
                 setOpenMenu(false);
               }}
-              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              className="py-3 lg:hidden bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
               to={e.link7}
             >
               {e.name7}

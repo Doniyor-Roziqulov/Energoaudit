@@ -76,16 +76,3 @@
     overflow-y: hidden;
   }
 }
-
-.style-0 {
-  background-color: lightblue;
-  color: black;
-}
-.style-1 {
-  background-color: lightgreen;
-  color: white;
-}
-.style-2 {
-  background-color: lightcoral;
-  color: yellow;
-}
