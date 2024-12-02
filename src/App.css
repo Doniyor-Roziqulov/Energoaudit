@@ -60,31 +60,13 @@
   line-height: 160%; /* 51.2px */
 }
 
-
-
-.link__item:nth-child(2):active .linkheader__box {
-  display: flex;
-  height: 136px;
-  overflow-y: hidden;
-}
-
-.link__item:nth-child(3):active .linkheader__box {
-  display: flex;
-}
-.link__item:nth-child(4):active .linkheader__box {
-  display: flex;
-  height: 181px;
-  overflow-y: hidden;
-}
-
-
 @media (min-width: 1024px) {
   .link__item:nth-child(2):hover .linkheader__box {
     display: flex;
     height: 136px;
     overflow-y: hidden;
   }
-  
+
   .link__item:nth-child(3):hover .linkheader__box {
     display: flex;
   }
@@ -93,4 +75,17 @@
     height: 181px;
     overflow-y: hidden;
   }
+}
+
+.style-0 {
+  background-color: lightblue;
+  color: black;
+}
+.style-1 {
+  background-color: lightgreen;
+  color: white;
+}
+.style-2 {
+  background-color: lightcoral;
+  color: yellow;
 }

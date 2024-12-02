@@ -12,6 +12,7 @@ export const headerlist = [
         name1:"Xodimlar",
         name2:"Bajarilgan ishlar",
         name3:"O'lchov asboblari",
+        class:"one"
     },
     {
         title: "Xizmatlar va mahsulotlar",
@@ -30,6 +31,7 @@ export const headerlist = [
         name5:"Kimyoviy mahsulotlar",
         name6:"HVAC loyihalash",
         name7:"Agtksh",
+        class:"two"
     },
     {
         title: "Foydali ma'lumotlar",
@@ -42,6 +44,7 @@ export const headerlist = [
         name2:"Tabiiy gazga chegirma haqida",
         name3:"Quyosh panellari o'rnatish imtiyozlari",
         name4:"Energetik audit kalkulyator",
+        class:"theree"
     },
     {
         title: "Aloqa",

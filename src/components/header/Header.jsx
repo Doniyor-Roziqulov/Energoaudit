@@ -5,6 +5,17 @@ import { MotionConfig, motion } from "framer-motion";
 import { FaCaretDown } from "react-icons/fa6";
 
 const Header = () => {
+  const [clicks, setClicks] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(null);
+  const toggleDropdown = (index) => {
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const styles = [
+    { height: "200px", overflow: "hidden" },
+    { height: "135px", overflow: "hidden" },
+    { height: "auto", overflow: "hidden" },
+  ];
   const list = headerlist.map((e, inx) => (
     <li
       className=" text-neutral-600 relative link__item lg:pb-4 dark:text-neutral-300  font-semibold  transition-all"
@@ -13,14 +24,89 @@ const Header = () => {
       <NavLink
         className="border-b flex items-center gap-x-2 border-white dark:border-slate-900 hover:opacity-70"
         to={e.link}
-        // onClick={() => {
-        //   setOpenMenu(!openMenu);
-        // }}
+        onClick={() => {
+          e.link1 && setClicks(!clicks),
+            e.link1 ? toggleDropdown(inx) : null,
+            !e.link1 && setOpenMenu(!openMenu);
+        }}
       >
         {e.title}
         {e.link1 && <FaCaretDown />}
       </NavLink>
-      <div className="hidden flex-col absolute top-10 border-t w-[300px] linkheader__box text-sm">
+      {
+        (clicks == true && e.link1,
+        activeIndex === inx && e.link1 && (
+          <div
+            style={styles[inx % styles.length]}
+            className="flex lg:hidden flex-col relative bottom-0 lg:absolute left-[-20px] lg:top-10 border-t w-[250px] lg:w-[300px] linkheader__box text-sm"
+          >
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link1}
+            >
+              {e.name1}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link2}
+            >
+              {e.name2}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link3}
+            >
+              {e.name3}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link4}
+            >
+              {e.name4}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link5}
+            >
+              {e.name5}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link6}
+            >
+              {e.name6}
+            </NavLink>
+            <NavLink
+              onClick={() => {
+                setOpenMenu(false);
+              }}
+              className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b pl-5"
+              to={e.link7}
+            >
+              {e.name7}
+            </NavLink>
+          </div>
+        ))
+      }
+      <div className="hidden flex-col relative lg:absolute top-10 border-t w-[300px] linkheader__box text-sm">
         <NavLink
           className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
           to={e.link1}
