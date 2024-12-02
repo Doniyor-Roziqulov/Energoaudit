@@ -8,9 +8,12 @@ import logo5 from "@/images/logo5.png";
 import logo6 from "@/images/logo6.png";
 import logo7 from "@/images/logo7.png";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
 const Use = () => {
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <div className="container mx-auto max-w-[1385px] px-5">
         <h2 className="text-3xl text-center mb-4 dark:text-white">
           Bizning afzaliklarimiz
@@ -30,16 +33,73 @@ const Use = () => {
           </div>
         </div>
         <div
-          className="flex items-center flex-col sm:flex-row flex-wrap
+          className="flex items-center py-8 lg:py-0 flex-col sm:flex-row overflow-x-hidden flex-wrap
          gap-y-2 justify-between pb-6"
         >
-          <img src={logo1} alt="" />
-          <img src={logo2} alt="" />
-          <img src={logo3} alt="" />
-          <img src={logo4} alt="" />
-          <img src={logo5} alt="" />
-          <img src={logo6} alt="" />
-          <img src={logo7} alt="" />
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            loop={true}
+            pagination={{
+              clickable: true,
+            }}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Autoplay]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo1} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo2} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center h-full justify-center">
+                <img className="pt-6" src={logo3} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo4} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo5} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo6} alt="" />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img src={logo7} alt="" />
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
