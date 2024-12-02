@@ -48,8 +48,12 @@ const Use = () => {
               disableOnInteraction: false,
             }}
             breakpoints={{
+              320: {
+                slidesPerView: 2, // Kichik ekranlarda bir slayd
+                spaceBetween: 10, // Har bir slayd orasidagi masofa
+              },
               640: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 20,
               },
               768: {

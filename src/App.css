@@ -37,6 +37,11 @@
   }
 }
 
+.mySwiper {
+  width: 100%; /* Slayder butun kenglikni egallaydi */
+  height: 100%; /* Slayder butun balandlikni egallaydi */
+}
+
 .about__title {
   color: #f3f3f3;
   text-align: center;
