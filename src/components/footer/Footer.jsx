@@ -70,19 +70,19 @@ const Footer = () => {
             </strong>
             <Link
               className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-              to={"/lists"}
+              to={""}
             >
               Biz haqimizda
             </Link>
             <Link
               className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-              to={"/personnel"}
+              to={""}
             >
               Xizmatlar va mahsulotlar
             </Link>
             <Link
               className="hover:text-black text-neutral-600 font-medium transition-all dark:text-gray-300 dark:hover:text-gray-500"
-              to={"/price"}
+              to={""}
             >
               Foydali ma'lumotlar
             </Link>
