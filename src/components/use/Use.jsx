@@ -91,12 +91,11 @@ const Use = () => {
               }`}
             >
               <p className="dark:text-white">
-                • Energiya va energoaudit sohasida tajriba va ishonch juda muhim
-                omillar hisoblanadi. Ushbu sohalar aniq hisob-kitoblar,
-                samaradorlik tahlillari va muammolarni hal qilishni talab
-                qiladigan murakkab texnologik jarayonlarni o‘z ichiga oladi.
-                Tajriba va ishonch bu jarayonlarda yuqori natijalarga erishish
-                uchun asosiy poydevor hisoblanadi.
+                • Malakali mutaxassislar - bu o‘z sohasida chuqur bilim va
+                tajribaga ega bo‘lgan, aniq maqsadlar va yuqori sifatli
+                natijalarga erishishni ta'minlaydigan professional kadrlar
+                hisoblanadi. Energiya va energoaudit sohasida malakali
+                mutaxassislarning o‘rni juda muhimdir.
               </p>
             </div>
           </div>
@@ -113,12 +112,11 @@ const Use = () => {
               }`}
             >
               <p className="dark:text-white">
-                • Energiya va energoaudit sohasida tajriba va ishonch juda muhim
-                omillar hisoblanadi. Ushbu sohalar aniq hisob-kitoblar,
-                samaradorlik tahlillari va muammolarni hal qilishni talab
-                qiladigan murakkab texnologik jarayonlarni o‘z ichiga oladi.
-                Tajriba va ishonch bu jarayonlarda yuqori natijalarga erishish
-                uchun asosiy poydevor hisoblanadi.
+                • Energiya va energoaudit sohasida o‘lchov asboblari majmuasi
+                asosan ob'ektning energiya sarfi, samaradorligi va atrof-muhitga
+                ta'sirini aniqlash uchun zarur bo‘lgan texnologik vositalarni
+                anglatadi. Ushbu asboblar aniq o‘lchovlar va tahlillar uchun
+                asosiy vositalar bo‘lib xizmat qiladi.
               </p>
             </div>
           </div>

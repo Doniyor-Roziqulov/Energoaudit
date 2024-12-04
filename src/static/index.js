@@ -52,14 +52,14 @@ export const headerlist = [
     },
 ];
 
-import about1 from "@/images/about1.png"
-import about2 from "@/images/about2.png"
-import about3 from "@/images/about3.png"
-import about4 from "@/images/about4.png"
-import about5 from "@/images/about5.png"
-import about6 from "@/images/about6.png"
-import about7 from "@/images/about7.png"
-import about8 from "@/images/about8.png"
+import about1 from "@/images/aaa1.jpg"
+import about2 from "@/images/aaa2.jpg"
+import about3 from "@/images/aaa4.jpg"
+import about4 from "@/images/aaa6.jpg"
+import about5 from "@/images/aaa5.jpg"
+import about6 from "@/images/aaa5.avif"
+import about7 from "@/images/aaa7.jpg"
+import about8 from "@/images/aaa8.jpg"
 
 export const aboutlist = [
     {

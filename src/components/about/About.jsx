@@ -7,10 +7,11 @@ const About = () => {
       data-aos="fade-up"
       key={inx}
       style={{ backgroundImage: `url(${e.url})` }}
-      className={`border shadow-2xl rounded-[20px] bg-no-repeat bg-cover px-4 pb-4 pt-3 min-[430px]:px-2 h-[216px] hover:scale-[1.02] transition-[0.3s]`}
+      className={`border flex items-center active:scale-105 relative onliy__blok justify-center shadow-2xl rounded-[14px] bg-no-repeat bg-cover px-4 pb-4 pt-3 min-[430px]:px-2 h-[216px] transition-[0.3s]`}
     >
-      <h2 className="text-center about__title text-xl font-bold mb-2 dark:text-white">
-        {e.title}
+      <div className="fixed w-full h-full left-0 top-0 bg-[#282727dd] z-20 rounded-[14px]"></div>
+      <h2 className="text-center text-xl font-normal mb-2 z-30 text-white">
+        {e.title.toUpperCase()}
       </h2>
     </div>
   ));
