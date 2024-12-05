@@ -1,48 +1,37 @@
 import React, { useState } from "react";
 
-import logo1 from "@/images/logo1.png";
-import logo2 from "@/images/logo2.png";
-import logo3 from "@/images/logo3.png";
-import logo4 from "@/images/logo4.png";
-import logo5 from "@/images/logo5.png";
-import logo6 from "@/images/logo6.png";
+import logo1 from "@/images/midea.png";
+import logo2 from "@/images/tdtu.png";
+import logo3 from "@/images/welkin.png";
+import logo4 from "@/images/green.png";
+import logo5 from "@/images/sugar.png";
+import logo6 from "@/images/akfa.png";
 import logo7 from "@/images/logo7.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 const Use = () => {
-  const [openState, setOpenState] = useState({
-    open0: false,
-    open1: false,
-    open2: false,
-    open3: false,
-  });
+  const [openState1, setOpenState1] = useState(false);
+  const [openState2, setOpenState2] = useState(false);
+  const [openState3, setOpenState3] = useState(false);
+  const [openState4, setOpenState4] = useState(false);
 
-  const handleClick = (key) => {
-    setOpenState((prevState) => ({
-      open0: false,
-      open1: false,
-      open2: false,
-      open3: false,
-      [key]: !prevState[key],
-    }));
-  };
   return (
-    <section className="overflow-x-hidden pb-12">
+    <section className="overflow-x-hidden pb-20">
       <div className="container mx-auto max-w-[1385px] px-5">
-        <h2 className="text-3xl text-center mb-4 dark:text-white">
+        <h2 className="text-3xl text-center mb-8 dark:text-white">
           Bizning afzaliklarimiz
         </h2>
         <div className="grid grid-cols-1 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
-          <div
-            onClick={() => handleClick("open0")}
-            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+          <button
+            onClick={() => setOpenState1(!openState1)}
+            className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Tajriba va ishonch</p>
             <div
-              className={`absolute border-2 z-50 dark:bg-neutral-800 px-2 transition-all py-3 bg-neutral-100 ${
-                openState.open0
+              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
+                openState1
                   ? "z-20 top-[134px] opacity-100"
                   : "z-0 opacity-0 top-[-20px]"
               }`}
@@ -56,15 +45,15 @@ const Use = () => {
                 uchun asosiy poydevor hisoblanadi.
               </p>
             </div>
-          </div>
-          <div
-            onClick={() => handleClick("open1")}
-            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+          </button>
+          <button
+            onClick={() => setOpenState2(!openState2)}
+            className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Sifat</p>
             <div
-              className={`absolute border-2 z-50 dark:bg-neutral-800 px-2 transition-all py-3 bg-neutral-100 ${
-                openState.open1
+              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
+                openState2
                   ? "z-20 top-[134px] opacity-100"
                   : "z-0 opacity-0 top-[-20px]"
               }`}
@@ -77,15 +66,15 @@ const Use = () => {
                 bo'lishni anglatadi.
               </p>
             </div>
-          </div>
-          <div
-            onClick={() => handleClick("open2")}
-            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+          </button>
+          <button
+            onClick={() => setOpenState3(!openState3)}
+            className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Malakali mutaxassislar</p>
             <div
-              className={`absolute border-2 z-50 dark:bg-neutral-800 px-2 transition-all py-3 bg-neutral-100 ${
-                openState.open2
+              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
+                openState3
                   ? "z-20 top-[134px] opacity-100"
                   : "z-0 opacity-0 top-[-20px]"
               }`}
@@ -98,15 +87,15 @@ const Use = () => {
                 mutaxassislarning o‘rni juda muhimdir.
               </p>
             </div>
-          </div>
-          <div
-            onClick={() => handleClick("open3")}
-            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+          </button>
+          <button
+            onClick={() => setOpenState4(!openState4)}
+            className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">O’lchov asboblari majmuasi</p>
             <div
-              className={`absolute border-2 z-50 dark:bg-neutral-800 px-2 transition-all py-3 bg-neutral-100 ${
-                openState.open3
+              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
+                openState4
                   ? "z-20 top-[134px] opacity-100"
                   : "z-0 opacity-0 top-[-20px]"
               }`}
@@ -119,7 +108,7 @@ const Use = () => {
                 asosiy vositalar bo‘lib xizmat qiladi.
               </p>
             </div>
-          </div>
+          </button>
         </div>
         <div
           className="flex items-center py-8 lg:py-0 flex-col sm:flex-row overflow-x-hidden flex-wrap
@@ -159,37 +148,65 @@ const Use = () => {
           >
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src={logo1} alt="" />
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo1}
+                  alt=""
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src={logo2} alt="" />
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo2}
+                  alt=""
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex items-center h-full justify-center">
-                <img className="pt-6" src={logo3} alt="" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="flex items-center justify-center">
-                <img src={logo4} alt="" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="flex items-center justify-center">
-                <img src={logo5} alt="" />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="flex items-center justify-center">
-                <img src={logo6} alt="" />
+              <div className=" flex items-center justify-center">
+                <img
+                  className="pt-6 w-[200px] h-[200px] object-contain"
+                  src={logo3}
+                  alt=""
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src={logo7} alt="" />
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo4}
+                  alt=""
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo5}
+                  alt=""
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo6}
+                  alt=""
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center">
+                <img
+                  className="w-[200px] h-[200px]  object-contain"
+                  src={logo7}
+                  alt=""
+                />
               </div>
             </SwiperSlide>
           </Swiper>

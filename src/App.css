@@ -71,6 +71,7 @@
 @media (min-width: 1024px) {
   .text__use {
     font-size: 28px;
+    font-weight: 600;
   }
 }
 
@@ -96,6 +97,20 @@
 }
 
 .use__box {
-  border-radius: 30px;
-box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.10);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.10);
+}
+
+.dark .use__box {
+  border-radius: 10px;
+  background-color: #000d;
+  box-shadow: 0px 4px 10px 0px #fff;
+}
+
+.use__box:hover .text__use {
+  color: #17195A;
+}
+
+.dark .use__box .text__use {
+  color: #fff
 }

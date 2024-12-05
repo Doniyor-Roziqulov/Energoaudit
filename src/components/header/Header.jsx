@@ -22,7 +22,7 @@ const Header = () => {
       key={inx}
     >
       <NavLink
-        className="border-b flex items-center gap-x-2 border-white dark:border-slate-900 hover:opacity-70"
+        className="border-b-2 hover:border-black flex items-center gap-x-2 border-white dark:border-slate-900"
         to={e.link}
         onClick={() => {
           e.link1 && setClicks(!clicks),
@@ -106,45 +106,45 @@ const Header = () => {
           </div>
         ))
       }
-      <div className="hidden flex-col relative lg:absolute top-10 border-t w-[300px] linkheader__box text-sm">
+      <div className="hidden flex-col z-50 rounded-xl overflow-hidden relative lg:absolute top-10 border-t w-[300px] linkheader__box text-sm">
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white text-[#041A57] dark:border-black border-b px-5"
           to={e.link1}
         >
           {e.name1}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link2}
         >
           {e.name2}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link3}
         >
           {e.name3}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link4}
         >
           {e.name4}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link5}
         >
           {e.name5}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link6}
         >
           {e.name6}
         </NavLink>
         <NavLink
-          className="py-3 bg-stone-100 border-x-2 hover:bg-slate-300 dark:bg-neutral-800 dark:hover:bg-neutral-600 border-b px-5"
+          className="py-3 bg-[#d6f5ffe2] border-x-2 hover:bg-blue-400 hover:text-white dark:border-black text-[#041A57] border-b px-5"
           to={e.link7}
         >
           {e.name7}

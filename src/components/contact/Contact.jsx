@@ -36,7 +36,7 @@ const Contact = () => {
           <h1 className="text-4xl font-semibold dark:text-white">Aloqa</h1>
         </div>
         <div className="flex items-center min-[730px]:flex-row lg:items-start lg:gap-x-5 flex-col justify-between">
-          <div>
+          <div data-aos="flip-down">
             <form
               onSubmit={handleSendMessage}
               className="w-[280px] min-[480px]:w-[370px] flex flex-col gap-y-4 min-[630px]:w-[450px] min-[730px]:w-[280px] min-[840px]:w-[370px] min-[900px]:w-[420px] lg:w-[600px] dark:text-white px-3 py-3 rounded-md"
@@ -76,7 +76,7 @@ const Contact = () => {
                   autoComplete="off"
                   className="border py-1 pl-2 rounded-lg border-neutral-600 dark:bg-neutral-800 dark:border-white"
                   required
-                  placeholder="+998942860422"
+                  placeholder="+998948306644"
                   name="number"
                   type="text"
                 />
@@ -92,51 +92,40 @@ const Contact = () => {
                   id=""
                 ></textarea>
               </div>
-              <button className="w-full bg-black text-white py-2 rounded-lg border transition-all hover:bg-white hover:text-black hover:border-black font-semibold text-base">
-                Submit
+              <button className="w-full bg-[#FE5716] text-white py-2 rounded-lg border transition-all hover:bg-white hover:text-black hover:border-black font-semibold text-base">
+                Send Message
               </button>
             </form>
           </div>
-          <div data-aos="fade-up-left">
-            <div className="mb-3">
-              <strong className="block mb-3 text-2xl dark:text-white">
-                Manzil
-              </strong>
+          <div data-aos="flip-up">
+            <div className="mb-3 bg-[#0A9642] py-5 px-6 rounded-[30px]">
+              <strong className="block mb-3 text-2xl text-white">Manzil</strong>
               <a
-                className=" font-semibold text-neutral-600 dark:text-slate-400"
+                className=" font-semibold text-slate-200"
                 href="https://maps.app.goo.gl/8RNQG1hJ256K5aXa6"
                 target="_blank"
               >
-                100128, O‘zbekiston, Toshkent sh. <br />, Shayxantaxur tumani,
-                Zulfiyaxanum, 12 ko‘ch. 5-etaj.
+                Shayxantaxur tumani, 12 ko‘ch. 5-etaj.
               </a>
             </div>
-            <div className="mb-3">
-              <strong className="block mb-3 text-2xl dark:text-white">
+            <div className="mb-3 bg-[#0A9642] py-5 px-6 rounded-[30px]">
+              <strong className="block mb-3 text-2xl text-white">
                 Qo'ng'iroq qiling
               </strong>
               <a
-                className="block mb-2 font-semibold text-neutral-600 dark:text-slate-400"
-                href="tel:+998993746920"
+                className="block mb-2 font-semibold text-slate-200"
+                href="tel:+998948306644"
               >
-                +998 (99) 374 69 20
-              </a>
-              <a
-                className="block font-semibold text-neutral-600 dark:text-slate-400"
-                href="tel:+998942860422"
-              >
-                +998 (94) 286 04 22
+                +998 (94) 830 66 44
               </a>
             </div>
-            <div className="mb-3">
-              <strong className="block mb-3 text-2xl dark:text-white">
-                Email
-              </strong>
+            <div className="mb-6 bg-[#0A9642] py-5 px-6 rounded-[30px]">
+              <strong className="block mb-3 text-2xl text-white">Email</strong>
               <a
-                className=" font-semibold text-neutral-600 dark:text-slate-400"
+                className=" font-semibold text-slate-200"
                 href="mailto:doniyorruziqulov33@gmail.com"
               >
-                doniyorruziqulov33@gmail.com
+                ruziqulov33@gmail.com
               </a>
             </div>
             <div className="flex gap-x-4 text-4xl">

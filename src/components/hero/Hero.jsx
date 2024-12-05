@@ -10,11 +10,11 @@ const Hero = () => {
     >
       <div
         style={{ backgroundImage: `url(${bgtwo})` }}
-        className="container bg-no-repeat bg-contain hero__box mx-auto lg:pt-[253px] lg:px-5 py-20 lg:pb-[200px]"
+        className="container bg-no-repeat bg-contain hero__box px-3 mx-auto lg:pt-[253px] lg:px-5 py-20 lg:pb-[200px]"
       >
         <div data-aos="zoom-in">
           <div className=" w-full">
-            <h1 className="hero__title dark:text-black">
+            <h1 className="hero__title">
               Energiya iste'moli harajatlarni qisqartirish, <br /> chiqindi
               gazlarni kamaytirish hamda barqaror rivojlanish uchun innovatsion
               yechimlar
