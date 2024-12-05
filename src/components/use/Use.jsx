@@ -29,7 +29,7 @@ const Use = () => {
     }));
   };
   return (
-    <section className="overflow-x-hidden pb-9">
+    <section className="overflow-x-hidden pb-12">
       <div className="container mx-auto max-w-[1385px] px-5">
         <h2 className="text-3xl text-center mb-4 dark:text-white">
           Bizning afzaliklarimiz
@@ -37,7 +37,7 @@ const Use = () => {
         <div className="grid grid-cols-1 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
           <div
             onClick={() => handleClick("open0")}
-            className="py-3 bg-[#D9D9D9] hover:bg-[#696969] hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Tajriba va ishonch</p>
             <div
@@ -59,7 +59,7 @@ const Use = () => {
           </div>
           <div
             onClick={() => handleClick("open1")}
-            className="py-3 bg-[#D9D9D9] hover:bg-[#696969] hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Sifat</p>
             <div
@@ -80,7 +80,7 @@ const Use = () => {
           </div>
           <div
             onClick={() => handleClick("open2")}
-            className="py-3 bg-[#D9D9D9] hover:bg-[#696969] hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Malakali mutaxassislar</p>
             <div
@@ -101,7 +101,7 @@ const Use = () => {
           </div>
           <div
             onClick={() => handleClick("open3")}
-            className="py-3 bg-[#D9D9D9] hover:bg-[#696969] hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
+            className="py-3 bg-[#fff] hover:bg-[#d5d5d5] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">O’lchov asboblari majmuasi</p>
             <div

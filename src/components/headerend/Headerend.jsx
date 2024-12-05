@@ -9,7 +9,7 @@ const Headerend = () => {
         </a>
         <a className="flex items-center" href="tel:+998909999999">
           <IoCallOutline />
-          +998 90 999 99 99
+          +998 94 830 66 44
         </a>
       </div>
     </div>
