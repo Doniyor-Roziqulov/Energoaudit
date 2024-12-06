@@ -23,7 +23,7 @@ const Use = () => {
         <h2 className="text-3xl text-center mb-8 dark:text-white">
           Bizning afzaliklarimiz
         </h2>
-        <div className="grid grid-cols-1 gap-y-2 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
+        <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
           <button
             onClick={() => setOpenState1(!openState1)}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
@@ -32,8 +32,8 @@ const Use = () => {
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
                 openState1
-                  ? "z-20 top-[134px] opacity-100"
-                  : "z-0 opacity-0 top-[-20px]"
+                  ? "z-20 top-[134px] opacity-100 block"
+                  : "z-0 opacity-0 hidden top-[-20px]"
               }`}
             >
               <p className="dark:text-white">
@@ -54,8 +54,8 @@ const Use = () => {
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
                 openState2
-                  ? "z-20 top-[134px] opacity-100"
-                  : "z-0 opacity-0 top-[-20px]"
+                  ? "z-20 top-[134px] opacity-100 block"
+                  : "z-0 opacity-0 hidden top-[-20px]"
               }`}
             >
               <p className="dark:text-white">
@@ -75,8 +75,8 @@ const Use = () => {
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
                 openState3
-                  ? "z-20 top-[134px] opacity-100"
-                  : "z-0 opacity-0 top-[-20px]"
+                  ? "z-20 top-[134px] opacity-100 block"
+                  : "z-0 opacity-0 hidden top-[-20px]"
               }`}
             >
               <p className="dark:text-white">
@@ -96,8 +96,8 @@ const Use = () => {
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
                 openState4
-                  ? "z-20 top-[134px] opacity-100"
-                  : "z-0 opacity-0 top-[-20px]"
+                  ? "z-20 top-[134px] opacity-100 block"
+                  : "z-0 opacity-0 hidden top-[-20px]"
               }`}
             >
               <p className="dark:text-white">
