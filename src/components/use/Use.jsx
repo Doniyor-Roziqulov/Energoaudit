@@ -12,10 +12,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 const Use = () => {
-  const [openState1, setOpenState1] = useState(false);
-  const [openState2, setOpenState2] = useState(false);
-  const [openState3, setOpenState3] = useState(false);
-  const [openState4, setOpenState4] = useState(false);
+  const [openState, setOpenState] = useState({
+    1: false,
+    2: false,
+    3: false,
+    4: false,
+  });
+
+  const handleToggle = (key) => {
+    setOpenState((prevState) => {
+      const newState = { 1: false, 2: false, 3: false, 4: false };
+      newState[key] = !prevState[key];
+      return newState;
+    });
+  };
 
   return (
     <section className="overflow-x-hidden pb-20">
@@ -25,13 +35,13 @@ const Use = () => {
         </h2>
         <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
           <button
-            onClick={() => setOpenState1(!openState1)}
+            onClick={() => handleToggle(1)}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Tajriba va ishonch</p>
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState1
+                openState[1]
                   ? "z-20 top-[134px] opacity-100 block"
                   : "z-0 opacity-0 hidden top-[-20px]"
               }`}
@@ -47,13 +57,13 @@ const Use = () => {
             </div>
           </button>
           <button
-            onClick={() => setOpenState2(!openState2)}
+            onClick={() => handleToggle(2)}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Sifat</p>
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState2
+                openState[2]
                   ? "z-20 top-[134px] opacity-100 block"
                   : "z-0 opacity-0 hidden top-[-20px]"
               }`}
@@ -68,13 +78,13 @@ const Use = () => {
             </div>
           </button>
           <button
-            onClick={() => setOpenState3(!openState3)}
+            onClick={() => handleToggle(3)}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Malakali mutaxassislar</p>
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState3
+                openState[3]
                   ? "z-20 top-[134px] opacity-100 block"
                   : "z-0 opacity-0 hidden top-[-20px]"
               }`}
@@ -89,13 +99,13 @@ const Use = () => {
             </div>
           </button>
           <button
-            onClick={() => setOpenState4(!openState4)}
+            onClick={() => handleToggle(4)}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">O’lchov asboblari majmuasi</p>
             <div
               className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState4
+                openState[4]
                   ? "z-20 top-[134px] opacity-100 block"
                   : "z-0 opacity-0 hidden top-[-20px]"
               }`}
