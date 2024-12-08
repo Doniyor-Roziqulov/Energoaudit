@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { headerlist } from "@/static";
 import { MotionConfig, motion } from "framer-motion";
 import { FaCaretDown } from "react-icons/fa6";
+import logo from "@/images/logo.png";
 
 const Header = () => {
   const [clicks, setClicks] = useState(false);
@@ -162,7 +163,7 @@ const Header = () => {
             className="text-2xl dark:text-white lg:pb-4 italic font-bold"
             to={"/"}
           >
-            LOGO
+            <img className="w-[45px]" src={logo} alt="Site's logo" />
           </Link>
           <nav
             className={

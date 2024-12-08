@@ -8,6 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { AiTwotoneMail } from "react-icons/ai";
+import logo from "@/images/logo.png";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
               className="text-2xl italic font-bold dark:text-white mb-5"
               to={"/"}
             >
-              LOGO
+              <img className="w-[60px]" src={logo} alt="site's logo" />
             </Link>
             <p className="dark:text-slate-300 mb-4">
               Kompaniya sanoat korxonalari va <br /> binolarda energiya
@@ -30,35 +31,35 @@ const Footer = () => {
             <div className="flex items-center gap-x-4 mt-4 text-2xl">
               <a
                 className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaInstagram />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaTelegramPlane />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaFacebook />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaTwitter />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white hover:text-blue-600 dark:hover:hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaLinkedin />

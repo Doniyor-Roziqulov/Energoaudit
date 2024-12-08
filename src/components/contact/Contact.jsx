@@ -131,28 +131,28 @@ const Contact = () => {
             <div className="flex gap-x-4 text-4xl">
               <a
                 className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaInstagram />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaTelegramPlane />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaFacebook />
               </a>
               <a
                 className="hover:scale-125 transition-all dark:text-white dark:hover:text-blue-600 hover:text-blue-600"
-                href="https://www.instagram.com/rahmatullayev_dostonbek"
+                href="https://t.me/Energyaudit_uzb"
                 target="_blank"
               >
                 <FaTwitter />
