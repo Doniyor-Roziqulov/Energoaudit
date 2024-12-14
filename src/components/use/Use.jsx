@@ -80,26 +80,10 @@ const Use = () => {
         </h2>
         <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 mb-20">
           <button
-            onClick={(() => handleToggle(1), showModal)}
+            onClick={showModal}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Tajriba va ishonch</p>
-            <div
-              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState[1]
-                  ? "z-20 top-[134px] opacity-100 block"
-                  : "z-0 opacity-0 hidden top-[-20px]"
-              }`}
-            >
-              <p className="dark:text-white">
-                • Energiya va energoaudit sohasida tajriba va ishonch juda muhim
-                omillar hisoblanadi. Ushbu sohalar aniq hisob-kitoblar,
-                samaradorlik tahlillari va muammolarni hal qilishni talab
-                qiladigan murakkab texnologik jarayonlarni o‘z ichiga oladi.
-                Tajriba va ishonch bu jarayonlarda yuqori natijalarga erishish
-                uchun asosiy poydevor hisoblanadi.
-              </p>
-            </div>
           </button>
           <Modal
             title="Tajriba va ishonch"
@@ -118,25 +102,10 @@ const Use = () => {
             </p>
           </Modal>
           <button
-            onClick={(() => handleToggle(2), showModal2)}
+            onClick={showModal2}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Sifat</p>
-            <div
-              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState[2]
-                  ? "z-20 top-[134px] opacity-100 block"
-                  : "z-0 opacity-0 hidden top-[-20px]"
-              }`}
-            >
-              <p className="dark:text-white">
-                • Sifat — bu mahsulot, xizmat yoki jarayonning belgilangan talab
-                va ehtiyojlarga muvofiqligini tavsiflovchi asosiy xususiyatdir.
-                Bu tushuncha turli sohalarda turli ma'nolarni anglatishi mumkin,
-                lekin ularning barchasida sifatlilik yuqori darajada qoniqarli
-                bo'lishni anglatadi.
-              </p>
-            </div>
           </button>{" "}
           <Modal
             title="Sifat"
@@ -154,25 +123,10 @@ const Use = () => {
             </p>
           </Modal>
           <button
-            onClick={(() => handleToggle(3), showModal3)}
+            onClick={showModal3}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">Malakali mutaxassislar</p>
-            <div
-              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState[3]
-                  ? "z-20 top-[134px] opacity-100 block"
-                  : "z-0 opacity-0 hidden top-[-20px]"
-              }`}
-            >
-              <p className="dark:text-white">
-                • Malakali mutaxassislar - bu o‘z sohasida chuqur bilim va
-                tajribaga ega bo‘lgan, aniq maqsadlar va yuqori sifatli
-                natijalarga erishishni ta'minlaydigan professional kadrlar
-                hisoblanadi. Energiya va energoaudit sohasida malakali
-                mutaxassislarning o‘rni juda muhimdir.
-              </p>
-            </div>
           </button>
           <Modal
             title="Malakali mutaxassislar"
@@ -190,25 +144,10 @@ const Use = () => {
             </p>
           </Modal>
           <button
-            onClick={(() => handleToggle(4), showModal4)}
+            onClick={showModal4}
             className="py-3 bg-[#fff] hover:bg-[#0A9642] use__box hover:scale-105 hover:z-20 relative cursor-pointer flex items-center justify-center px-0"
           >
             <p className="text__use">O’lchov asboblari majmuasi</p>
-            <div
-              className={`absolute border-2 z-50 rounded-2xl dark:bg-neutral-800 px-2 transition-all py-6 bg-[#d6f5ffe2] border-y-black ${
-                openState[4]
-                  ? "z-20 top-[134px] opacity-100 block"
-                  : "z-0 opacity-0 hidden top-[-20px]"
-              }`}
-            >
-              <p className="dark:text-white">
-                • Energiya va energoaudit sohasida o‘lchov asboblari majmuasi
-                asosan ob'ektning energiya sarfi, samaradorligi va atrof-muhitga
-                ta'sirini aniqlash uchun zarur bo‘lgan texnologik vositalarni
-                anglatadi. Ushbu asboblar aniq o‘lchovlar va tahlillar uchun
-                asosiy vositalar bo‘lib xizmat qiladi.
-              </p>
-            </div>
           </button>
           <Modal
             title="O‘lchov asboblari majmuasi"
